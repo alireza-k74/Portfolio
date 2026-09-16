@@ -9,7 +9,7 @@ export const profile: Profile = {
   email: 'alirezakaram.k74@gmail.com',
   phone: '09120734656',
   github: 'https://github.com/alireza-k74',
-  linkedin: 'https://www.linkedin.com/in/alireza-karami',
+  linkedin: 'https://www.linkedin.com/in/alirezak74/',
   resumeUrl: '/resume.pdf',
   socialLinks: [
     {
@@ -20,7 +20,7 @@ export const profile: Profile = {
     {
       platform: 'linkedin',
       label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/alireza-karami',
+      url: 'https://www.linkedin.com/in/alirezak74/',
     },
     {
       platform: 'email',
