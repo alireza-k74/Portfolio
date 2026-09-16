@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "خانه",
+    "about": "درباره",
+    "experience": "سوابق",
+    "skills": "مهارت‌ها",
+    "projects": "پروژه‌ها",
+    "resume": "رزومه",
+    "contact": "تماس",
+    "primary": "اصلی",
+    "mobile": "موبایل",
+    "menu": "منو",
+    "openMenu": "باز کردن منوی ناوبری",
+    "closeMenu": "بستن منوی ناوبری",
+    "skipToContent": "رفتن به محتوای اصلی"
+  },
+  "actions": {
+    "viewProjects": "مشاهده پروژه‌ها",
+    "downloadResume": "دانلود رزومه",
+    "readMore": "بیشتر بخوانید",
+    "viewDetails": "مشاهده جزئیات",
+    "details": "جزئیات",
+    "backToHome": "بازگشت به خانه",
+    "backToProjects": "بازگشت به پروژه‌ها",
+    "allProjects": "همه پروژه‌ها",
+    "github": "گیت‌هاب",
+    "liveDemo": "دموی زنده",
+    "tryAgain": "تلاش مجدد",
+    "close": "بستن"
+  },
+  "theme": {
+    "label": "پوسته",
+    "light": "روشن",
+    "dark": "تیره",
+    "system": "سیستم",
+    "option": "پوسته {{label}}",
+    "current": "پوسته فعلی: {{theme}}"
+  },
+  "language": {
+    "label": "زبان",
+    "option": "تغییر به {{label}}"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{name}}",
+    "tagline": "مهندس ارشد موبایل و فرانت‌اند",
+    "navigation": "پاورقی",
+    "social": "شبکه‌های اجتماعی"
+  },
+  "social": {
+    "github": "گیت‌هاب",
+    "linkedin": "لینکدین",
+    "email": "ایمیل",
+    "twitter": "توییتر",
+    "website": "وب‌سایت"
+  },
+  "loading": "در حال بارگذاری…",
+  "error": {
+    "title": "مشکلی پیش آمد",
+    "description": "هنگام نمایش این صفحه خطای غیرمنتظره‌ای رخ داد."
+  },
+  "present": "اکنون",
+  "email": "ایمیل"
+}

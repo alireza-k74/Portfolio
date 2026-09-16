@@ -1,0 +1,27 @@
+{
+  "title": "Skills",
+  "description": "Technologies grouped by focus area — kept practical and easy to scan.",
+  "overview": {
+    "label": "Overview",
+    "categories": "Categories",
+    "skills": "Skills"
+  },
+  "categories": {
+    "frontend": "Frontend",
+    "mobile": "Mobile",
+    "state": "State Management",
+    "data": "Data / API",
+    "testing": "Testing",
+    "tools": "Tools",
+    "ai": "AI-Assisted Development"
+  },
+  "categoryDescriptions": {
+    "frontend": "Modern web UI foundations and application structure.",
+    "mobile": "Cross-platform mobile delivery with React Native.",
+    "state": "Client state and server-state patterns used in product work.",
+    "data": "API styles and data platforms for client applications.",
+    "testing": "Verification across components and critical user flows.",
+    "tools": "Everyday engineering workflow and code quality tooling.",
+    "ai": "Using AI coding agents to accelerate delivery with human ownership."
+  }
+}

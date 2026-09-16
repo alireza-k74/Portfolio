@@ -1,0 +1,22 @@
+{
+  "title": "Resume",
+  "description": "A clean online resume with download and print support.",
+  "download": "Download PDF",
+  "print": "Print",
+  "sections": {
+    "summary": "Summary",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "contact": {
+    "email": "Email",
+    "location": "Location",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "summary": "Senior engineer focused on React Native, React, and TypeScript, with a strong interest in AI-assisted development workflows.",
+  "notice": "Experience entries marked as placeholders should be replaced with real employment history before sharing externally."
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Experience",
+  "description": "Professional roles, responsibilities, and technologies. Replace placeholder entries with real employment history before publishing.",
+  "notice": "The entries below are structural placeholders until real company details are provided.",
+  "responsibilities": "Responsibilities",
+  "technologies": "Technologies",
+  "workMode": {
+    "remote": "Remote",
+    "hybrid": "Hybrid",
+    "on-site": "On-site"
+  },
+  "employmentType": {
+    "full-time": "Full-time",
+    "contract": "Contract",
+    "freelance": "Freelance",
+    "part-time": "Part-time"
+  },
+  "items": {
+    "placeholder-current": {
+      "company": "Company name placeholder",
+      "role": "Senior Mobile & Frontend Engineer",
+      "description": "Placeholder role focused on React Native and React product delivery.",
+      "responsibilities": {
+        "0": "Build and maintain mobile and web client features",
+        "1": "Collaborate with design and product partners",
+        "2": "Improve code quality, testing, and developer experience"
+      }
+    }
+  }
+}

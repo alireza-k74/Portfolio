@@ -1,0 +1,73 @@
+{
+  "title": "Projects",
+  "description": "Selected work across web, mobile, and AI-assisted development.",
+  "results": "{{count}} project",
+  "results_plural": "{{count}} projects",
+  "filters": {
+    "label": "Project filters",
+    "all": "All",
+    "web": "Web",
+    "mobile": "Mobile",
+    "react": "React",
+    "react-native": "React Native",
+    "ai": "AI"
+  },
+  "empty": {
+    "title": "No projects match this filter",
+    "description": "Try another category to explore more work."
+  },
+  "notFound": {
+    "title": "Project not found",
+    "description": "This project does not exist or is no longer available."
+  },
+  "sections": {
+    "overview": "Overview",
+    "problem": "Problem",
+    "solution": "Solution",
+    "features": "Features",
+    "architecture": "Architecture",
+    "stack": "Technology stack",
+    "challenges": "Challenges",
+    "results": "Results",
+    "screenshots": "Screenshots"
+  },
+  "screenshotAlt": "{{title}} screenshot {{index}}",
+  "categories": {
+    "web": "Web",
+    "mobile": "Mobile",
+    "ai": "AI",
+    "other": "Other"
+  },
+  "status": {
+    "completed": "Completed",
+    "in-progress": "In progress",
+    "archived": "Archived"
+  },
+  "items": {
+    "portfolio-website": {
+      "title": "Personal Portfolio",
+      "description": "A multilingual React + TypeScript portfolio with theming, routing, and accessible UI.",
+      "longDescription": "This website showcases professional experience, skills, and selected projects with a clean architecture and production-ready tooling.",
+      "problem": "Need a maintainable personal portfolio that reflects senior frontend engineering standards.",
+      "solution": "Build a feature-oriented React application with typed content models, i18n, and a shared design system.",
+      "features": {
+        "0": "Responsive page layout",
+        "1": "Project listing and detail routes",
+        "2": "Theme and language foundations"
+      },
+      "architecture": "Feature folders, typed data models, shared UI primitives, and route-level code splitting.",
+      "challenges": {
+        "0": "Keeping the architecture simple while remaining extensible",
+        "1": "Supporting RTL and LTR without layout regressions"
+      }
+    },
+    "mobile-app-placeholder": {
+      "title": "Mobile App Placeholder",
+      "description": "Placeholder React Native project entry for portfolio structure and filtering."
+    },
+    "ai-workflow-placeholder": {
+      "title": "AI Workflow Assistant",
+      "description": "Placeholder AI-assisted development tooling concept for filtering and project detail structure."
+    }
+  }
+}

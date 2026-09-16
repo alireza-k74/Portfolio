@@ -1,0 +1,46 @@
+{
+  "greeting": "Hi, I'm {{name}}",
+  "name": "Alireza Karami",
+  "title": "Senior Mobile & Frontend Engineer",
+  "intro": "I design and build reliable mobile and web products with React Native, React, and TypeScript — supported by thoughtful AI-assisted workflows.",
+  "highlights": {
+    "reactNative": "React Native",
+    "react": "React",
+    "typescript": "TypeScript",
+    "ai": "AI-Assisted Development"
+  },
+  "stats": {
+    "label": "Overview",
+    "projects": "Projects",
+    "skillAreas": "Skill areas",
+    "focus": "Core focus"
+  },
+  "about": {
+    "title": "About",
+    "description": "A concise look at how I work and what I care about in product engineering.",
+    "summary": "Senior engineer focused on React Native, React, and TypeScript, with a strong interest in AI-assisted development workflows.",
+    "cta": "More about me"
+  },
+  "featured": {
+    "title": "Featured projects",
+    "description": "Selected work that reflects product thinking, clean architecture, and polished interfaces.",
+    "cta": "View all projects"
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "Recent roles and the technologies behind them.",
+    "cta": "View experience",
+    "present": "Present"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "A practical stack across frontend, mobile, and delivery tooling.",
+    "cta": "Explore skills"
+  },
+  "cta": {
+    "title": "Let's build something solid",
+    "description": "Open to collaboration, product engineering roles, and thoughtful frontend or mobile work.",
+    "primary": "Contact me",
+    "secondary": "Download resume"
+  }
+}

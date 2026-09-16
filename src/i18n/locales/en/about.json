@@ -1,0 +1,60 @@
+{
+  "title": "About",
+  "description": "Professional background, working style, and technology focus.",
+  "summary": {
+    "title": "Professional summary",
+    "body": "I am a senior mobile and frontend engineer focused on React Native, React, and TypeScript. I care about clear architecture, accessible interfaces, and shipping reliable product experiences."
+  },
+  "approach": {
+    "title": "Development approach",
+    "body": "I start from the user problem, keep the codebase understandable, and iterate with small, reviewable changes. I prefer typed models, reusable UI primitives, and feature-oriented structure over premature abstraction.",
+    "points": {
+      "0": "Clarify product goals before expanding technical complexity",
+      "1": "Favor maintainable architecture and readable TypeScript",
+      "2": "Validate UI across breakpoints, themes, and text directions",
+      "3": "Ship incrementally with strong feedback loops"
+    }
+  },
+  "strengths": {
+    "title": "Main strengths",
+    "items": {
+      "0": {
+        "title": "Cross-platform delivery",
+        "body": "Comfortable moving between React Native and React while keeping shared product thinking."
+      },
+      "1": {
+        "title": "Interface craft",
+        "body": "Attention to hierarchy, spacing, accessibility, and responsive behavior."
+      },
+      "2": {
+        "title": "Engineering clarity",
+        "body": "Typed data models, simple composition, and code that another developer can extend quickly."
+      },
+      "3": {
+        "title": "Collaboration",
+        "body": "Practical communication with design and product partners around trade-offs and delivery."
+      }
+    }
+  },
+  "ai": {
+    "title": "AI-assisted development workflow",
+    "body": "I use AI coding agents as accelerators for exploration, boilerplate reduction, and review support — while keeping architecture decisions, validation, and final quality ownership with the engineer.",
+    "points": {
+      "0": "Draft and refine implementations faster without skipping design judgment",
+      "1": "Use AI to surface alternatives, edge cases, and test ideas",
+      "2": "Keep secrets, correctness, and product intent under human control"
+    }
+  },
+  "focus": {
+    "title": "Technology focus",
+    "body": "Current focus areas that show up consistently in my work.",
+    "items": {
+      "0": "React Native",
+      "1": "React",
+      "2": "TypeScript",
+      "3": "Vite",
+      "4": "Accessible UI systems",
+      "5": "AI-assisted development"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact",
+    "primary": "Primary",
+    "mobile": "Mobile",
+    "menu": "Menu",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "skipToContent": "Skip to main content"
+  },
+  "actions": {
+    "viewProjects": "View Projects",
+    "downloadResume": "Download Resume",
+    "readMore": "Read more",
+    "viewDetails": "View details",
+    "details": "Details",
+    "backToHome": "Back to home",
+    "backToProjects": "Back to projects",
+    "allProjects": "All projects",
+    "github": "GitHub",
+    "liveDemo": "Live demo",
+    "tryAgain": "Try again",
+    "close": "Close"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "option": "{{label}} theme",
+    "current": "Current theme: {{theme}}"
+  },
+  "language": {
+    "label": "Language",
+    "option": "Switch to {{label}}"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{name}}",
+    "tagline": "Senior Mobile & Frontend Engineer",
+    "navigation": "Footer",
+    "social": "Social links"
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "twitter": "Twitter",
+    "website": "Website"
+  },
+  "loading": "Loading…",
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred while rendering this page."
+  },
+  "present": "Present",
+  "email": "Email"
+}

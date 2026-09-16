@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alireza Karami | Senior Mobile & Frontend Engineer</title>
+    <script>
+      ;(function () {
+        try {
+          var themeKey = 'portfolio-theme'
+          var storedTheme = localStorage.getItem(themeKey)
+          var theme =
+            storedTheme === 'light' ||
+            storedTheme === 'dark' ||
+            storedTheme === 'system'
+              ? storedTheme
+              : 'system'
+          var resolvedTheme =
+            theme === 'system'
+              ? window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+              : theme
+          document.documentElement.classList.toggle(
+            'dark',
+            resolvedTheme === 'dark',
+          )
+          document.documentElement.style.colorScheme = resolvedTheme
+
+          var localeKey = 'portfolio-locale'
+          var storedLocale = localStorage.getItem(localeKey)
+          var locale =
+            storedLocale === 'en' || storedLocale === 'fa' ? storedLocale : 'en'
+          document.documentElement.lang = locale
+          document.documentElement.dir = locale === 'fa' ? 'rtl' : 'ltr'
+        } catch (error) {
+          // Ignore preference bootstrap failures.
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
