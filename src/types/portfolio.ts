@@ -16,7 +16,10 @@ export type Profile = {
   phone?: string
   github: string
   linkedin: string
-  resumeUrl: string
+  resumeUrls: {
+    en: string
+    fa: string
+  }
   socialLinks: SocialLink[]
 }
 

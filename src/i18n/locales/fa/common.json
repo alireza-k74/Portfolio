@@ -17,6 +17,8 @@
   "actions": {
     "viewProjects": "مشاهده پروژه‌ها",
     "downloadResume": "دانلود رزومه",
+    "downloadResumeEn": "دانلود PDF انگلیسی",
+    "downloadResumeFa": "دانلود PDF فارسی",
     "readMore": "بیشتر بخوانید",
     "viewDetails": "مشاهده جزئیات",
     "details": "جزئیات",

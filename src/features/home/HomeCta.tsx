@@ -1,11 +1,11 @@
-import { ArrowRight, Download } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import { Heading } from '@/components/common/Heading'
+import { ResumeDownloadButtons } from '@/components/common/ResumeDownloadButtons'
 import { Section } from '@/components/layout/Section'
 import { Button } from '@/components/ui/button'
-import { profile } from '@/data/profile'
 import { ROUTES } from '@/lib/constants'
 
 export function HomeCta() {
@@ -31,17 +31,12 @@ export function HomeCta() {
                 <ArrowRight data-icon="inline-end" className="rtl:rotate-180" />
               </Link>
             </Button>
-            <Button
-              asChild
+            <ResumeDownloadButtons
               size="lg"
-              variant="outline"
-              className="w-full min-[390px]:w-auto"
-            >
-              <a href={profile.resumeUrl}>
-                <Download data-icon="inline-start" />
-                {t('cta.secondary')}
-              </a>
-            </Button>
+              firstVariant="outline"
+              secondVariant="outline"
+              buttonClassName="w-full min-[390px]:w-auto"
+            />
           </div>
         </div>
       </div>

@@ -1,9 +1,10 @@
 import { useMemo, type ReactNode } from 'react'
-import { Download, Printer } from 'lucide-react'
+import { Printer } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 import { Heading } from '@/components/common/Heading'
 import { Page, PageHeader } from '@/components/common/Page'
+import { ResumeDownloadButtons } from '@/components/common/ResumeDownloadButtons'
 import { SkillBadge } from '@/components/common/SkillBadge'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
@@ -111,12 +112,7 @@ export function ResumePage() {
           description={t('resume:description')}
         />
         <div className="mt-6 flex flex-wrap gap-3">
-          <Button asChild>
-            <a href={profile.resumeUrl} download>
-              <Download data-icon="inline-start" />
-              {t('resume:download')}
-            </a>
-          </Button>
+          <ResumeDownloadButtons />
           <Button type="button" variant="outline" onClick={handlePrint}>
             <Printer data-icon="inline-start" />
             {t('resume:print')}

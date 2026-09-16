@@ -17,6 +17,8 @@
   "actions": {
     "viewProjects": "View Projects",
     "downloadResume": "Download Resume",
+    "downloadResumeEn": "Download English PDF",
+    "downloadResumeFa": "Download Persian PDF",
     "readMore": "Read more",
     "viewDetails": "View details",
     "details": "Details",

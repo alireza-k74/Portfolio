@@ -10,7 +10,10 @@ export const profile: Profile = {
   phone: '09120734656',
   github: 'https://github.com/alireza-k74',
   linkedin: 'https://www.linkedin.com/in/alirezak74/',
-  resumeUrl: '/resume.pdf',
+  resumeUrls: {
+    en: '/resume-en.pdf',
+    fa: '/resume-fa.pdf',
+  },
   socialLinks: [
     {
       platform: 'github',

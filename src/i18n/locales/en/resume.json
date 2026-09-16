@@ -2,6 +2,8 @@
   "title": "Resume",
   "description": "Online resume with download and print support.",
   "download": "Download PDF",
+  "downloadEn": "Download English PDF",
+  "downloadFa": "Download Persian PDF",
   "print": "Print",
   "sections": {
     "summary": "About me",

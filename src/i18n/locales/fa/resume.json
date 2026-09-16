@@ -2,6 +2,8 @@
   "title": "رزومه",
   "description": "رزومه آنلاین با پشتیبانی دانلود و چاپ.",
   "download": "دانلود PDF",
+  "downloadEn": "دانلود PDF انگلیسی",
+  "downloadFa": "دانلود PDF فارسی",
   "print": "چاپ",
   "sections": {
     "summary": "درباره من",
