@@ -1,59 +1,59 @@
 {
   "title": "About",
-  "description": "Professional background, working style, and technology focus.",
+  "description": "Professional background, experience, and technology focus.",
   "summary": {
-    "title": "Professional summary",
-    "body": "I am a senior mobile and frontend engineer focused on React Native, React, and TypeScript. I care about clear architecture, accessible interfaces, and shipping reliable product experiences."
+    "title": "About me",
+    "body": "Software engineer with 7+ years building mobile and web applications, focused on React, React Native, and TypeScript. I have worked on real products in social, education, communications, and utility domains. I am also strengthening React Web skills and use AI tools for development, refactoring, debugging, testing, and documentation."
   },
   "approach": {
-    "title": "Development approach",
-    "body": "I start from the user problem, keep the codebase understandable, and iterate with small, reviewable changes. I prefer typed models, reusable UI primitives, and feature-oriented structure over premature abstraction.",
+    "title": "Core expertise",
+    "body": "I focus on reliable product delivery, polished UI, and maintainable architecture across mobile and web.",
     "points": {
-      "0": "Clarify product goals before expanding technical complexity",
-      "1": "Favor maintainable architecture and readable TypeScript",
-      "2": "Validate UI across breakpoints, themes, and text directions",
-      "3": "Ship incrementally with strong feedback loops"
+      "0": "Project structure and UI development",
+      "1": "State management, APIs, and real-time features",
+      "2": "Payments, subscriptions, media processing, and performance",
+      "3": "Remote collaboration with backend, design, and product teams"
     }
   },
   "strengths": {
-    "title": "Main strengths",
+    "title": "Soft skills",
     "items": {
       "0": {
-        "title": "Cross-platform delivery",
-        "body": "Comfortable moving between React Native and React while keeping shared product thinking."
+        "title": "Ownership",
+        "body": "End-to-end follow-through from implementation to release and maintenance."
       },
       "1": {
-        "title": "Interface craft",
-        "body": "Attention to hierarchy, spacing, accessibility, and responsive behavior."
+        "title": "Problem solving",
+        "body": "Tackling performance bottlenecks and complexity in large apps."
       },
       "2": {
-        "title": "Engineering clarity",
-        "body": "Typed data models, simple composition, and code that another developer can extend quickly."
+        "title": "Fast learning",
+        "body": "Quick adoption of new tools and patterns in the React ecosystem."
       },
       "3": {
-        "title": "Collaboration",
-        "body": "Practical communication with design and product partners around trade-offs and delivery."
+        "title": "Teamwork",
+        "body": "Effective communication with engineering and product in remote settings."
       }
     }
   },
   "ai": {
-    "title": "AI-assisted development workflow",
-    "body": "I use AI coding agents as accelerators for exploration, boilerplate reduction, and review support — while keeping architecture decisions, validation, and final quality ownership with the engineer.",
+    "title": "AI-assisted development",
+    "body": "I use coding agents and AI tools to accelerate development, code review, debugging, testing, and documentation — while keeping human ownership of architecture and final quality.",
     "points": {
-      "0": "Draft and refine implementations faster without skipping design judgment",
-      "1": "Use AI to surface alternatives, edge cases, and test ideas",
-      "2": "Keep secrets, correctness, and product intent under human control"
+      "0": "Faster implementation and refactoring with human review",
+      "1": "Debugging and testing with AI support",
+      "2": "More efficient documentation and code review"
     }
   },
   "focus": {
     "title": "Technology focus",
-    "body": "Current focus areas that show up consistently in my work.",
+    "body": "Technologies I use in day-to-day work.",
     "items": {
-      "0": "React Native",
-      "1": "React",
-      "2": "TypeScript",
-      "3": "Vite",
-      "4": "Accessible UI systems",
+      "0": "React Native (New Architecture)",
+      "1": "React & TypeScript",
+      "2": "Redux / Zustand",
+      "3": "SignalR / Socket.io / WebRTC",
+      "4": "Tailwind & shadcn/ui",
       "5": "AI-assisted development"
     }
   }

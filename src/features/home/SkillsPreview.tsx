@@ -9,7 +9,12 @@ import { Button } from '@/components/ui/button'
 import { skillCategories } from '@/data/skills'
 import { ROUTES } from '@/lib/constants'
 
-const PREVIEW_CATEGORY_IDS = ['frontend', 'mobile', 'testing', 'ai'] as const
+const PREVIEW_CATEGORY_IDS = [
+  'mobile-web',
+  'react-web',
+  'testing',
+  'ai',
+] as const
 
 export function SkillsPreview() {
   const { t } = useTranslation(['home', 'skills'])

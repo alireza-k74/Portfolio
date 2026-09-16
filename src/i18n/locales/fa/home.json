@@ -1,8 +1,8 @@
 {
   "greeting": "سلام، من {{name}} هستم",
   "name": "علیرضا کرمی",
-  "title": "مهندس ارشد موبایل و فرانت‌اند",
-  "intro": "محصولات موبایل و وب قابل اعتماد را با React Native، React و TypeScript می‌سازم — با تکیه بر جریان‌های کاری دقیق مبتنی بر هوش مصنوعی.",
+  "title": "مهندس ارشد موبایل و فرانت‌اند | React Native | React | TypeScript",
+  "intro": "بیش از ۷ سال در توسعه اپلیکیشن‌های موبایل و وب با React Native، React و TypeScript — از پروژه‌های بزرگ واقعی تا انتشار محصول در مارکت.",
   "highlights": {
     "reactNative": "React Native",
     "react": "React",
@@ -17,29 +17,29 @@
   },
   "about": {
     "title": "درباره",
-    "description": "نگاهی کوتاه به نحوه کار من و چیزهایی که در مهندسی محصول برایم مهم است.",
-    "summary": "مهندس ارشد متمرکز بر React Native، React و TypeScript، با علاقه جدی به جریان‌های کاری توسعه به کمک هوش مصنوعی.",
+    "description": "نگاهی کوتاه به تجربه و تمرکز فنی من.",
+    "summary": "مهندس نرم‌افزار با بیش از ۷ سال تجربه در React، React Native و TypeScript؛ با تمرکز بر معماری، عملکرد و محصولات واقعی.",
     "cta": "بیشتر درباره من"
   },
   "featured": {
     "title": "پروژه‌های منتخب",
-    "description": "نمونه کارهایی که تفکر محصول، معماری تمیز و رابط کاربری پرداخت‌شده را نشان می‌دهند.",
+    "description": "دم‌دست و پورتفولیوی وب — نمونه‌کارهای واقعی در موبایل و React Web.",
     "cta": "مشاهده همه پروژه‌ها"
   },
   "experience": {
     "title": "سوابق",
-    "description": "نقش‌های اخیر و فناوری‌های مرتبط با آن‌ها.",
+    "description": "TOGETHING، APSY و DIGITAL IMPROVER — توسعه React Native در تیم‌های Remote.",
     "cta": "مشاهده سوابق",
     "present": "اکنون"
   },
   "skills": {
     "title": "مهارت‌ها",
-    "description": "یک پشته عملی در فرانت‌اند، موبایل و ابزارهای تحویل.",
+    "description": "از React Native و معماری جدید تا React Web، API، Performance و AI-Assisted Development.",
     "cta": "کاوش مهارت‌ها"
   },
   "cta": {
-    "title": "بیایید چیزی محکم بسازیم",
-    "description": "آماده همکاری، نقش‌های مهندسی محصول و کارهای جدی فرانت‌اند یا موبایل هستم.",
+    "title": "بیایید همکاری کنیم",
+    "description": "آماده نقش‌های Remote در توسعه موبایل و فرانت‌اند هستم.",
     "primary": "تماس با من",
     "secondary": "دانلود رزومه"
   }

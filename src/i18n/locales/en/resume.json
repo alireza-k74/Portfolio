@@ -1,22 +1,66 @@
 {
   "title": "Resume",
-  "description": "A clean online resume with download and print support.",
+  "description": "Online resume with download and print support.",
   "download": "Download PDF",
   "print": "Print",
   "sections": {
-    "summary": "Summary",
-    "experience": "Experience",
-    "skills": "Skills",
-    "projects": "Projects",
+    "summary": "About me",
+    "experience": "Work experience",
+    "skills": "Technical skills",
+    "projects": "Personal projects",
     "education": "Education",
+    "achievements": "Achievements",
+    "softSkills": "Soft skills",
+    "languages": "Languages",
     "contact": "Contact"
   },
+  "locationValue": "Semnan, Iran",
   "contact": {
     "email": "Email",
+    "phone": "Phone",
     "location": "Location",
     "github": "GitHub",
     "linkedin": "LinkedIn"
   },
-  "summary": "Senior engineer focused on React Native, React, and TypeScript, with a strong interest in AI-assisted development workflows.",
-  "notice": "Experience entries marked as placeholders should be replaced with real employment history before sharing externally."
+  "summaryParts": [
+    "Software engineer with 7+ years of experience building mobile and web applications, primarily with React, React Native, and TypeScript.",
+    "I have developed and maintained real, large-scale projects across social, education, communications, and utility domains.",
+    "Experienced in project structure, UI development, state management, API integration, real-time features, payments and subscriptions, media processing, and performance optimization.",
+    "Alongside mobile work, I am strengthening React Web skills and use common libraries for modern React projects.",
+    "I use AI tools and coding agents for feature development, refactoring, debugging, testing, code review, and documentation."
+  ],
+  "summary": "Software engineer with 7+ years of experience building mobile and web applications, focused on React, React Native, and TypeScript.",
+  "notice": "",
+  "educationItems": {
+    "semnan-university": {
+      "degree": "Bachelor's in Computer Engineering – Computer Systems Architecture",
+      "institution": "Semnan University – Iran",
+      "dates": "2015 – 2020"
+    }
+  },
+  "achievementsList": [
+    "Improved UI performance and speed on large React Native projects",
+    "Built real-time features with SignalR, Socket.io, and WebRTC",
+    "Implemented in-app subscription and purchase systems for Android and iOS",
+    "Optimized media-heavy apps and demanding processing workloads",
+    "Shipped and managed production releases for Android and iOS",
+    "Built and published a personal React Native app on Iranian app stores",
+    "Developed a React + TypeScript web portfolio showcasing frontend skills",
+    "Practical use of AI tools in the software development workflow"
+  ],
+  "softSkillsList": [
+    "Ownership and follow-through",
+    "Problem solving",
+    "Fast learning of new technologies",
+    "Effective teamwork",
+    "Remote team experience",
+    "Reviewing and improving existing codebases",
+    "Clear communication with engineering and product teams"
+  ],
+  "languagesList": [
+    {
+      "name": "English",
+      "level": "Technical documentation and professional communication"
+    }
+  ]
 }

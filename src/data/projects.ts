@@ -1,71 +1,95 @@
 import type { Project } from '@/types/portfolio'
 
-/**
- * Placeholder projects for architecture, filtering, and routing.
- * Replace with real project details before production.
- */
 export const projects: Project[] = [
   {
-    id: 'portfolio-website',
-    title: 'Personal Portfolio',
+    id: 'damdast',
+    title: 'Damdast | دم‌دست',
     description:
-      'A multilingual React + TypeScript portfolio with theming, routing, and accessible UI.',
+      'Offline-first everyday utility app for Android and iOS, built with React Native and TypeScript.',
     longDescription:
-      'This website showcases professional experience, skills, and selected projects with a clean architecture and production-ready tooling.',
+      'A multi-purpose daily utility app focused on UX, performance, and offline-first architecture. Published on Iranian app stores.',
+    category: 'mobile',
+    technologies: [
+      'React Native',
+      'TypeScript',
+      'New Architecture',
+      'Zustand',
+      'UniStyles',
+      'MMKV',
+      'Reanimated',
+      'i18next',
+      'Notifee',
+      'Keychain',
+    ],
+    featured: true,
+    status: 'completed',
+    tags: ['React Native', 'Mobile', 'TypeScript'],
+    image: '/projects/mobile.svg',
+    features: [
+      'Personalized home screen',
+      'Calculator, unit converter, and daily tools',
+      'Scanner',
+      'Installment and payment reminders',
+      'Work hours tracking with Excel export',
+      'Timer, countdown, and stopwatch',
+      'Photo, video, and audio compression',
+      'Offline games (2048, Minesweeper, Sudoku)',
+      'Music and offline playback',
+      'Theme system and UI customization',
+      'Persian and English with RTL/LTR',
+      'Onboarding, app lock, backup and export',
+      'Gamification and XP system',
+      'Responsive mobile and tablet layout',
+    ],
+    results: [
+      'Published on Cafe Bazaar and SibApp',
+    ],
+  },
+  {
+    id: 'portfolio-website',
+    title: 'Web Portfolio',
+    description:
+      'Personal resume and portfolio website built with React, TypeScript, and Vite.',
+    longDescription:
+      'Professional personal site showcasing experience, skills, and projects with modern React tooling.',
     category: 'web',
     technologies: [
       'React',
       'TypeScript',
       'Vite',
-      'Tailwind CSS',
       'React Router',
+      'Tailwind CSS',
+      'shadcn/ui',
+      'React Hook Form',
+      'Zod',
+      'i18next',
+      'Capacitor',
     ],
     featured: true,
     status: 'in-progress',
-    githubUrl: 'https://github.com/',
-    tags: ['React', 'Web'],
+    githubUrl: 'https://github.com/alireza-k74/Portfolio',
+    tags: ['React', 'Web', 'TypeScript'],
     image: '/projects/portfolio.svg',
     screenshots: ['/projects/portfolio.svg', '/projects/portfolio.svg'],
     problem:
-      'Need a maintainable personal portfolio that reflects senior frontend engineering standards.',
+      'Need a maintainable personal portfolio that reflects senior frontend and mobile engineering experience.',
     solution:
       'Build a feature-oriented React application with typed content models, i18n, and a shared design system.',
     features: [
-      'Responsive page layout',
-      'Project listing and detail routes',
-      'Theme and language foundations',
+      'Responsive layout for mobile, tablet, and desktop',
+      'Component-based reusable UI',
+      'About, resume, skills, and projects pages',
+      'Dark and light theme',
+      'Multilingual support',
+      'Validated forms',
+      'Capacitor-ready for mobile packaging',
     ],
     architecture:
       'Feature folders, typed data models, shared UI primitives, and route-level code splitting.',
     challenges: [
-      'Keeping the architecture simple while remaining extensible',
       'Supporting RTL and LTR without layout regressions',
+      'Keeping architecture simple while remaining extensible',
     ],
-  },
-  {
-    id: 'mobile-app-placeholder',
-    title: 'Mobile App Placeholder',
-    description:
-      'Placeholder React Native project entry for portfolio structure and filtering.',
-    category: 'mobile',
-    technologies: ['React Native', 'TypeScript', 'Reanimated'],
-    featured: false,
-    status: 'completed',
-    tags: ['React Native', 'Mobile'],
-    image: '/projects/mobile.svg',
-    githubUrl: 'https://github.com/',
-  },
-  {
-    id: 'ai-workflow-placeholder',
-    title: 'AI Workflow Assistant',
-    description:
-      'Placeholder AI-assisted development tooling concept for filtering and project detail structure.',
-    category: 'ai',
-    technologies: ['React', 'TypeScript', 'AI coding agents'],
-    featured: false,
-    status: 'archived',
-    tags: ['AI', 'React'],
-    image: '/projects/ai.svg',
   },
 ]
 

@@ -15,4 +15,17 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // Windows often resolves `localhost` to IPv4 while Vite defaults to IPv6 (::1).
+  // Bind IPv4 explicitly so http://localhost:5173 and http://127.0.0.1:5173 both work.
+  // `yarn dev` frees 5173 first; strictPort stays off as a last-resort fallback.
+  server: {
+    host: '127.0.0.1',
+    port: 5173,
+    strictPort: false,
+  },
+  preview: {
+    host: '127.0.0.1',
+    port: 4173,
+    strictPort: false,
+  },
 })

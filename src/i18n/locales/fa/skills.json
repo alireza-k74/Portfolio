@@ -7,21 +7,31 @@
     "skills": "مهارت‌ها"
   },
   "categories": {
-    "frontend": "فرانت‌اند",
-    "mobile": "موبایل",
-    "state": "مدیریت وضعیت",
-    "data": "داده / API",
-    "testing": "تست",
+    "mobile-web": "توسعه موبایل و وب",
+    "react-web": "React Web",
+    "testing": "تست و کیفیت کد",
+    "state": "مدیریت وضعیت و ساختار پروژه",
+    "api": "API و ارتباط با سرور",
+    "mobile-capabilities": "قابلیت‌های موبایل",
+    "performance": "بهینه‌سازی و Performance",
+    "rn-architecture": "React Native Architecture",
+    "ui-animation": "UI و Animation",
     "tools": "ابزارها",
-    "ai": "توسعه به کمک هوش مصنوعی"
+    "software-engineering": "مهندسی نرم‌افزار",
+    "ai": "توسعه با کمک هوش مصنوعی"
   },
   "categoryDescriptions": {
-    "frontend": "پایه‌های رابط کاربری وب مدرن و ساختار اپلیکیشن.",
-    "mobile": "تحویل موبایل کراس‌پلتفرم با React Native.",
-    "state": "الگوهای state سمت کلاینت و server-state در کار محصولی.",
-    "data": "سبک‌های API و پلتفرم‌های داده برای اپلیکیشن‌های کلاینت.",
-    "testing": "اعتبارسنجی کامپوننت‌ها و جریان‌های حیاتی کاربر.",
-    "tools": "ابزارهای روزمره مهندسی و کیفیت کد.",
-    "ai": "استفاده از ایجنت‌های کدنویسی برای سرعت‌بخشی با مالکیت انسانی."
+    "mobile-web": "پشته اصلی توسعه موبایل و وب.",
+    "react-web": "کتابخانه‌ها و ابزارهای رایج React Web.",
+    "testing": "کیفیت کد، lint و بازبینی.",
+    "state": "الگوهای state و ساختار پروژه.",
+    "api": "REST، GraphQL و کلاینت‌های API.",
+    "mobile-capabilities": "قابلیت‌های بومی و سرویس‌های موبایل.",
+    "performance": "بهینه‌سازی رندر، بارگذاری و ذخیره‌سازی.",
+    "rn-architecture": "معماری جدید React Native و Native Modules.",
+    "ui-animation": "انیمیشن، ژست و کامپوننت‌های UI.",
+    "tools": "ابزارهای توسعه و انتشار.",
+    "software-engineering": "اصول و الگوهای مهندسی نرم‌افزار.",
+    "ai": "ایجنت‌ها و جریان‌های کاری AI-Assisted."
   }
 }

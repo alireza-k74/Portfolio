@@ -13,6 +13,7 @@ export type Profile = {
   summary: string
   location: string
   email: string
+  phone?: string
   github: string
   linkedin: string
   resumeUrl: string
@@ -20,7 +21,11 @@ export type Profile = {
 }
 
 export type EmploymentType =
-  'full-time' | 'contract' | 'freelance' | 'part-time'
+  | 'full-time'
+  | 'contract'
+  | 'freelance'
+  | 'part-time'
+  | 'hourly-contract'
 
 export type WorkMode = 'remote' | 'hybrid' | 'on-site'
 
@@ -40,7 +45,18 @@ export type ExperienceItem = {
 }
 
 export type SkillCategoryId =
-  'frontend' | 'mobile' | 'state' | 'data' | 'testing' | 'tools' | 'ai'
+  | 'mobile-web'
+  | 'react-web'
+  | 'testing'
+  | 'state'
+  | 'api'
+  | 'mobile-capabilities'
+  | 'performance'
+  | 'rn-architecture'
+  | 'ui-animation'
+  | 'tools'
+  | 'software-engineering'
+  | 'ai'
 
 export type SkillCategory = {
   id: SkillCategoryId

@@ -1,8 +1,8 @@
 {
   "greeting": "Hi, I'm {{name}}",
   "name": "Alireza Karami",
-  "title": "Senior Mobile & Frontend Engineer",
-  "intro": "I design and build reliable mobile and web products with React Native, React, and TypeScript — supported by thoughtful AI-assisted workflows.",
+  "title": "Senior Mobile & Frontend Engineer | React Native | React | TypeScript",
+  "intro": "7+ years building mobile and web apps with React Native, React, and TypeScript — from large production products to published apps.",
   "highlights": {
     "reactNative": "React Native",
     "react": "React",
@@ -17,29 +17,29 @@
   },
   "about": {
     "title": "About",
-    "description": "A concise look at how I work and what I care about in product engineering.",
-    "summary": "Senior engineer focused on React Native, React, and TypeScript, with a strong interest in AI-assisted development workflows.",
+    "description": "A concise look at my experience and technical focus.",
+    "summary": "Software engineer with 7+ years in React, React Native, and TypeScript — focused on architecture, performance, and real-world products.",
     "cta": "More about me"
   },
   "featured": {
     "title": "Featured projects",
-    "description": "Selected work that reflects product thinking, clean architecture, and polished interfaces.",
+    "description": "Damdast and this web portfolio — real work across mobile and React web.",
     "cta": "View all projects"
   },
   "experience": {
     "title": "Experience",
-    "description": "Recent roles and the technologies behind them.",
+    "description": "TOGETHING, APSY, and DIGITAL IMPROVER — React Native development in remote teams.",
     "cta": "View experience",
     "present": "Present"
   },
   "skills": {
     "title": "Skills",
-    "description": "A practical stack across frontend, mobile, and delivery tooling.",
+    "description": "From React Native and New Architecture to React web, APIs, performance, and AI-assisted development.",
     "cta": "Explore skills"
   },
   "cta": {
-    "title": "Let's build something solid",
-    "description": "Open to collaboration, product engineering roles, and thoughtful frontend or mobile work.",
+    "title": "Let's work together",
+    "description": "Open to remote mobile and frontend engineering roles.",
     "primary": "Contact me",
     "secondary": "Download resume"
   }

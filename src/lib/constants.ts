@@ -1,5 +1,6 @@
 export const SITE_NAME = 'Alireza Karami'
-export const SITE_TITLE = 'Alireza Karami | Senior Mobile & Frontend Engineer'
+export const SITE_TITLE =
+  'Alireza Karami | Senior Mobile & Frontend Engineer | React Native | React | TypeScript'
 
 export const BREAKPOINTS = {
   sm: 640,

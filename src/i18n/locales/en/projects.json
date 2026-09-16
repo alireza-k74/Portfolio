@@ -1,6 +1,6 @@
 {
   "title": "Projects",
-  "description": "Selected work across web, mobile, and AI-assisted development.",
+  "description": "Selected work across web and mobile.",
   "results": "{{count}} project",
   "results_plural": "{{count}} projects",
   "filters": {
@@ -44,30 +44,36 @@
     "archived": "Archived"
   },
   "items": {
-    "portfolio-website": {
-      "title": "Personal Portfolio",
-      "description": "A multilingual React + TypeScript portfolio with theming, routing, and accessible UI.",
-      "longDescription": "This website showcases professional experience, skills, and selected projects with a clean architecture and production-ready tooling.",
-      "problem": "Need a maintainable personal portfolio that reflects senior frontend engineering standards.",
-      "solution": "Build a feature-oriented React application with typed content models, i18n, and a shared design system.",
+    "damdast": {
+      "title": "Damdast | دم‌دست",
+      "description": "Offline-first everyday utility app for Android and iOS, built with React Native and TypeScript.",
+      "longDescription": "A multi-purpose daily utility app focused on UX, performance, and offline-first architecture. Published on Iranian app stores.",
       "features": {
-        "0": "Responsive page layout",
-        "1": "Project listing and detail routes",
-        "2": "Theme and language foundations"
+        "0": "Personalized home and daily utility tools",
+        "1": "Scanner, installments, work hours, and timers",
+        "2": "Media compression, offline games, and music playback",
+        "3": "Theming, RTL/LTR, app lock, backup, and gamification"
       },
-      "architecture": "Feature folders, typed data models, shared UI primitives, and route-level code splitting.",
-      "challenges": {
-        "0": "Keeping the architecture simple while remaining extensible",
-        "1": "Supporting RTL and LTR without layout regressions"
+      "results": {
+        "0": "Published on Cafe Bazaar and SibApp"
       }
     },
-    "mobile-app-placeholder": {
-      "title": "Mobile App Placeholder",
-      "description": "Placeholder React Native project entry for portfolio structure and filtering."
-    },
-    "ai-workflow-placeholder": {
-      "title": "AI Workflow Assistant",
-      "description": "Placeholder AI-assisted development tooling concept for filtering and project detail structure."
+    "portfolio-website": {
+      "title": "Web Portfolio",
+      "description": "Personal resume and portfolio website with React, TypeScript, and Vite.",
+      "longDescription": "Professional site showcasing experience, skills, and projects with modern React tooling.",
+      "problem": "Need a maintainable portfolio that reflects senior mobile and frontend experience.",
+      "solution": "Feature-oriented React app with typed content models, i18n, and a shared design system.",
+      "features": {
+        "0": "Responsive layout and component-based UI",
+        "1": "About, resume, skills, and projects pages",
+        "2": "Light/dark theme, i18n, and validated forms"
+      },
+      "architecture": "Feature folders, typed data models, shared UI, and route-level code splitting.",
+      "challenges": {
+        "0": "Supporting RTL and LTR without layout regressions",
+        "1": "Keeping architecture simple while remaining extensible"
+      }
     }
   }
 }

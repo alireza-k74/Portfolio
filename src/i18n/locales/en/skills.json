@@ -1,27 +1,37 @@
 {
   "title": "Skills",
-  "description": "Technologies grouped by focus area — kept practical and easy to scan.",
+  "description": "Technologies grouped by focus area — practical and easy to scan.",
   "overview": {
     "label": "Overview",
     "categories": "Categories",
     "skills": "Skills"
   },
   "categories": {
-    "frontend": "Frontend",
-    "mobile": "Mobile",
-    "state": "State Management",
-    "data": "Data / API",
-    "testing": "Testing",
+    "mobile-web": "Mobile & web development",
+    "react-web": "React web",
+    "testing": "Testing & code quality",
+    "state": "State & project structure",
+    "api": "API & server communication",
+    "mobile-capabilities": "Mobile capabilities",
+    "performance": "Performance optimization",
+    "rn-architecture": "React Native architecture",
+    "ui-animation": "UI & animation",
     "tools": "Tools",
-    "ai": "AI-Assisted Development"
+    "software-engineering": "Software engineering",
+    "ai": "AI-assisted development"
   },
   "categoryDescriptions": {
-    "frontend": "Modern web UI foundations and application structure.",
-    "mobile": "Cross-platform mobile delivery with React Native.",
-    "state": "Client state and server-state patterns used in product work.",
-    "data": "API styles and data platforms for client applications.",
-    "testing": "Verification across components and critical user flows.",
-    "tools": "Everyday engineering workflow and code quality tooling.",
-    "ai": "Using AI coding agents to accelerate delivery with human ownership."
+    "mobile-web": "Core mobile and web stack.",
+    "react-web": "Common React web libraries and tooling.",
+    "testing": "Code quality, linting, and review.",
+    "state": "State patterns and project structure.",
+    "api": "REST, GraphQL, and API clients.",
+    "mobile-capabilities": "Native capabilities and mobile services.",
+    "performance": "Rendering, loading, and storage optimization.",
+    "rn-architecture": "New Architecture and native modules.",
+    "ui-animation": "Animation, gestures, and UI components.",
+    "tools": "Development and release tooling.",
+    "software-engineering": "Engineering principles and patterns.",
+    "ai": "Agents and AI-assisted workflows."
   }
 }

@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useMemo, type ReactNode } from 'react'
 import { Download, Printer } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
@@ -12,7 +12,6 @@ import { experience } from '@/data/experience'
 import { profile } from '@/data/profile'
 import { projects } from '@/data/projects'
 import { skillCategories } from '@/data/skills'
-import { SITE_NAME } from '@/lib/constants'
 
 function ResumeSection({
   id,
@@ -38,6 +37,40 @@ function ResumeSection({
   )
 }
 
+function readStringList(value: unknown): string[] {
+  if (!Array.isArray(value)) {
+    return []
+  }
+
+  return value.filter((item): item is string => typeof item === 'string')
+}
+
+type LanguageEntry = {
+  name: string
+  level: string
+}
+
+function readLanguageList(value: unknown): LanguageEntry[] {
+  if (!Array.isArray(value)) {
+    return []
+  }
+
+  return value.flatMap((item) => {
+    if (
+      typeof item === 'object' &&
+      item !== null &&
+      'name' in item &&
+      'level' in item &&
+      typeof item.name === 'string' &&
+      typeof item.level === 'string'
+    ) {
+      return [{ name: item.name, level: item.level }]
+    }
+
+    return []
+  })
+}
+
 export function ResumePage() {
   const { t } = useTranslation([
     'resume',
@@ -45,7 +78,26 @@ export function ResumePage() {
     'skills',
     'projects',
     'common',
+    'home',
   ])
+
+  const summaryParts = useMemo(
+    () => readStringList(t('resume:summaryParts', { returnObjects: true })),
+    [t],
+  )
+  const achievements = useMemo(
+    () => readStringList(t('resume:achievementsList', { returnObjects: true })),
+    [t],
+  )
+  const softSkills = useMemo(
+    () => readStringList(t('resume:softSkillsList', { returnObjects: true })),
+    [t],
+  )
+  const languages = useMemo(
+    () => readLanguageList(t('resume:languagesList', { returnObjects: true })),
+    [t],
+  )
+  const resumeNotice = t('resume:notice')
 
   const handlePrint = () => {
     window.print()
@@ -70,9 +122,9 @@ export function ResumePage() {
             {t('resume:print')}
           </Button>
         </div>
-        <p className="mt-4 text-sm text-muted-foreground">
-          {t('resume:notice')}
-        </p>
+        {resumeNotice ? (
+          <p className="mt-4 text-sm text-muted-foreground">{resumeNotice}</p>
+        ) : null}
       </div>
 
       <article
@@ -82,10 +134,10 @@ export function ResumePage() {
         <header className="space-y-3">
           <div className="space-y-1">
             <h1 className="font-heading text-3xl font-semibold tracking-tight print:text-black">
-              {SITE_NAME}
+              {t('home:name')}
             </h1>
             <p className="text-base text-muted-foreground print:text-neutral-700">
-              {profile.title}
+              {t('home:title')}
             </p>
           </div>
 
@@ -101,11 +153,24 @@ export function ResumePage() {
                 {profile.email}
               </a>
             </li>
+            {profile.phone ? (
+              <li>
+                <span className="font-medium text-foreground print:text-black">
+                  {t('resume:contact.phone')}:
+                </span>{' '}
+                <a
+                  href={`tel:${profile.phone}`}
+                  className="underline-offset-2 hover:underline print:text-black print:no-underline"
+                >
+                  {profile.phone}
+                </a>
+              </li>
+            ) : null}
             <li>
               <span className="font-medium text-foreground print:text-black">
                 {t('resume:contact.location')}:
               </span>{' '}
-              {profile.location}
+              {t('resume:locationValue', { defaultValue: profile.location })}
             </li>
             <li>
               <span className="font-medium text-foreground print:text-black">
@@ -143,9 +208,22 @@ export function ResumePage() {
             id="resume-summary"
             title={t('resume:sections.summary')}
           >
-            <p className="text-sm leading-relaxed text-muted-foreground print:text-neutral-800">
-              {t('resume:summary')}
-            </p>
+            {summaryParts.length > 0 ? (
+              <div className="space-y-3">
+                {summaryParts.map((paragraph) => (
+                  <p
+                    key={paragraph}
+                    className="text-sm leading-relaxed text-muted-foreground print:text-neutral-800"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm leading-relaxed text-muted-foreground print:text-neutral-800">
+                {t('resume:summary')}
+              </p>
+            )}
           </ResumeSection>
 
           <ResumeSection
@@ -190,6 +268,17 @@ export function ResumePage() {
                       ))}
                     </ul>
                   ) : null}
+                  {(() => {
+                    const projectNote = t(
+                      `experience:items.${item.id}.projectNote`,
+                      { defaultValue: '' },
+                    )
+                    return projectNote ? (
+                      <p className="text-sm italic text-muted-foreground print:text-neutral-700">
+                        {projectNote}
+                      </p>
+                    ) : null
+                  })()}
                 </li>
               ))}
             </ul>
@@ -250,20 +339,66 @@ export function ResumePage() {
                 {education.map((item) => (
                   <li key={item.id} className="space-y-1">
                     <h3 className="font-heading text-base font-medium print:text-black">
-                      {item.degree}
-                      {item.field ? ` · ${item.field}` : ''}
+                      {t(`resume:educationItems.${item.id}.degree`, {
+                        defaultValue: `${item.degree}${item.field ? ` · ${item.field}` : ''}`,
+                      })}
                     </h3>
                     <p className="text-sm text-muted-foreground print:text-neutral-700">
-                      {item.institution}
-                      {item.location ? ` · ${item.location}` : ''}
+                      {t(`resume:educationItems.${item.id}.institution`, {
+                        defaultValue: item.institution,
+                      })}
                     </p>
-                    {item.startDate || item.endDate ? (
-                      <p className="text-sm text-muted-foreground print:text-neutral-700">
-                        {item.startDate}
-                        {item.startDate && item.endDate ? ' – ' : ''}
-                        {item.endDate}
-                      </p>
-                    ) : null}
+                    <p className="text-sm text-muted-foreground print:text-neutral-700">
+                      {t(`resume:educationItems.${item.id}.dates`, {
+                        defaultValue: [item.startDate, item.endDate]
+                          .filter(Boolean)
+                          .join(' – '),
+                      })}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </ResumeSection>
+          ) : null}
+
+          {achievements.length > 0 ? (
+            <ResumeSection
+              id="resume-achievements"
+              title={t('resume:sections.achievements')}
+            >
+              <ul className="list-disc space-y-1 ps-5 text-sm text-muted-foreground print:text-neutral-800">
+                {achievements.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </ResumeSection>
+          ) : null}
+
+          {softSkills.length > 0 ? (
+            <ResumeSection
+              id="resume-soft-skills"
+              title={t('resume:sections.softSkills')}
+            >
+              <ul className="list-disc space-y-1 ps-5 text-sm text-muted-foreground print:text-neutral-800">
+                {softSkills.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </ResumeSection>
+          ) : null}
+
+          {languages.length > 0 ? (
+            <ResumeSection
+              id="resume-languages"
+              title={t('resume:sections.languages')}
+            >
+              <ul className="space-y-1 text-sm text-muted-foreground print:text-neutral-800">
+                {languages.map((language) => (
+                  <li key={language.name}>
+                    <span className="font-medium text-foreground print:text-black">
+                      {language.name}:
+                    </span>{' '}
+                    {language.level}
                   </li>
                 ))}
               </ul>
@@ -278,8 +413,14 @@ export function ResumePage() {
               <li>
                 {t('resume:contact.email')}: {profile.email}
               </li>
+              {profile.phone ? (
+                <li>
+                  {t('resume:contact.phone')}: {profile.phone}
+                </li>
+              ) : null}
               <li>
-                {t('resume:contact.location')}: {profile.location}
+                {t('resume:contact.location')}:{' '}
+                {t('resume:locationValue', { defaultValue: profile.location })}
               </li>
               <li>
                 {t('resume:contact.github')}: {profile.github}

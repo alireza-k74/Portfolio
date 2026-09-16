@@ -11,12 +11,14 @@ export function ExperiencePage() {
     <Page>
       <PageHeader title={t('title')} description={t('description')} />
 
-      <p
-        role="note"
-        className="mt-6 max-w-3xl rounded-xl border border-border/80 bg-muted/40 px-4 py-3 text-sm text-muted-foreground"
-      >
-        {t('notice')}
-      </p>
+      {t('notice') ? (
+        <p
+          role="note"
+          className="mt-6 max-w-3xl rounded-xl border border-border/80 bg-muted/40 px-4 py-3 text-sm text-muted-foreground"
+        >
+          {t('notice')}
+        </p>
+      ) : null}
 
       <ol className="mt-10">
         {experience.map((item, index) => (

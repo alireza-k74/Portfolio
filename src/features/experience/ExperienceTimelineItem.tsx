@@ -65,6 +65,12 @@ export function ExperienceTimelineItem({
           {t(`${itemKey}.description`, { defaultValue: item.description })}
         </p>
 
+        {t(`${itemKey}.projectNote`, { defaultValue: '' }) ? (
+          <p className="max-w-3xl text-sm italic text-muted-foreground">
+            {t(`${itemKey}.projectNote`)}
+          </p>
+        ) : null}
+
         {item.responsibilities.length > 0 ? (
           <div className="space-y-2">
             <h3 className="text-sm font-medium text-foreground">

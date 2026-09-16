@@ -1,7 +1,13 @@
 import type { EducationItem } from '@/types/portfolio'
 
-/**
- * Add real education entries here when available.
- * The resume page omits this section while the list is empty.
- */
-export const education: EducationItem[] = []
+export const education: EducationItem[] = [
+  {
+    id: 'semnan-university',
+    institution: 'Semnan University – Iran',
+    degree: "Bachelor's in Computer Engineering",
+    field: 'Computer Systems Architecture',
+    startDate: '2015',
+    endDate: '2020',
+    location: 'Iran',
+  },
+]
