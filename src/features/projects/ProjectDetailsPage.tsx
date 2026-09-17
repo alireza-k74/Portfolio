@@ -101,7 +101,21 @@ function ProjectHero({
         </div>
 
         <div className="flex w-full flex-col gap-3 min-[390px]:w-auto min-[390px]:flex-row min-[390px]:flex-wrap">
-          {project.liveUrl ? (
+          {(project.links ?? []).map((link, index) => (
+            <Button
+              key={link.url}
+              asChild
+              size="lg"
+              variant={index === 0 ? 'default' : 'outline'}
+              className="w-full min-[390px]:w-auto"
+            >
+              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                {link.label}
+                <ExternalLink data-icon="inline-end" />
+              </a>
+            </Button>
+          ))}
+          {!project.links?.length && project.liveUrl ? (
             <Button asChild size="lg" className="w-full min-[390px]:w-auto">
               <a
                 href={project.liveUrl}
@@ -323,7 +337,18 @@ export function ProjectDetailsPage() {
           <Separator />
 
           <div className="flex flex-wrap gap-3">
-            {project.liveUrl ? (
+            {(project.links ?? []).map((link, index) => (
+              <Button
+                key={link.url}
+                asChild
+                variant={index === 0 ? 'default' : 'outline'}
+              >
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  {link.label}
+                </a>
+              </Button>
+            ))}
+            {!project.links?.length && project.liveUrl ? (
               <Button asChild>
                 <a
                   href={project.liveUrl}

@@ -61,5 +61,6 @@
     "description": "An unexpected error occurred while rendering this page."
   },
   "present": "Present",
-  "email": "Email"
+  "email": "Email",
+  "phone": "Phone"
 }

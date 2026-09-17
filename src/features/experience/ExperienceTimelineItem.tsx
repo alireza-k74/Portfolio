@@ -102,6 +102,22 @@ export function ExperienceTimelineItem({
             </div>
           </div>
         ) : null}
+
+        {item.links && item.links.length > 0 ? (
+          <div className="flex flex-wrap gap-3">
+            {item.links.map((link) => (
+              <a
+                key={link.url}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        ) : null}
       </article>
     </li>
   )

@@ -31,6 +31,16 @@ export const experience: ExperienceItem[] = [
       'In-App Purchase',
     ],
     achievements: [],
+    links: [
+      {
+        label: 'App Store',
+        url: 'https://apps.apple.com/us/app/togething/id6476815844',
+      },
+      {
+        label: 'Google Play',
+        url: 'https://play.google.com/store/apps/details?id=com.togething',
+      },
+    ],
   },
   {
     id: 'apsy',
@@ -63,6 +73,12 @@ export const experience: ExperienceItem[] = [
       'Reanimated',
     ],
     achievements: [],
+    links: [
+      {
+        label: 'HUDU on Google Play',
+        url: 'https://play.google.com/store/apps/dev?id=5887758085440706718',
+      },
+    ],
   },
   {
     id: 'digital-improver',

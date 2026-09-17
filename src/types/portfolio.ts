@@ -7,6 +7,11 @@ export type SocialLink = {
   url: string
 }
 
+export type ExternalLink = {
+  label: string
+  url: string
+}
+
 export type Profile = {
   name: string
   title: string
@@ -24,11 +29,7 @@ export type Profile = {
 }
 
 export type EmploymentType =
-  | 'full-time'
-  | 'contract'
-  | 'freelance'
-  | 'part-time'
-  | 'hourly-contract'
+  'full-time' | 'contract' | 'freelance' | 'part-time' | 'hourly-contract'
 
 export type WorkMode = 'remote' | 'hybrid' | 'on-site'
 
@@ -45,6 +46,7 @@ export type ExperienceItem = {
   responsibilities: string[]
   technologies: string[]
   achievements: string[]
+  links?: ExternalLink[]
 }
 
 export type SkillCategoryId =
@@ -91,6 +93,7 @@ export type Project = {
   screenshots?: string[]
   githubUrl?: string
   liveUrl?: string
+  links?: ExternalLink[]
   featured: boolean
   status: ProjectStatus
   problem?: string

@@ -88,7 +88,14 @@ export function ProjectCard({ project, className }: ProjectCardProps) {
               </a>
             </Button>
           ) : null}
-          {project.liveUrl ? (
+          {(project.links ?? []).map((link) => (
+            <Button key={link.url} asChild size="sm" variant="ghost">
+              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                {link.label}
+              </a>
+            </Button>
+          ))}
+          {!project.links?.length && project.liveUrl ? (
             <Button asChild size="sm" variant="ghost">
               <a
                 href={project.liveUrl}

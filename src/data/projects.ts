@@ -25,6 +25,17 @@ export const projects: Project[] = [
     status: 'completed',
     tags: ['React Native', 'Mobile', 'TypeScript'],
     image: '/projects/mobile.svg',
+    liveUrl: 'https://cafebazaar.ir/app/com.damdast.app',
+    links: [
+      {
+        label: 'Cafe Bazaar',
+        url: 'https://cafebazaar.ir/app/com.damdast.app',
+      },
+      {
+        label: 'SibApp',
+        url: 'https://sibapp.com/applications/damdast',
+      },
+    ],
     features: [
       'Personalized home screen',
       'Calculator, unit converter, and daily tools',
