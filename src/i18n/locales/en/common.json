@@ -42,6 +42,7 @@
     "label": "Language",
     "option": "Switch to {{label}}"
   },
+  "siteName": "Alireza Karami",
   "footer": {
     "copyright": "© {{year}} {{name}}",
     "tagline": "Senior Mobile & Frontend Engineer",

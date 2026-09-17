@@ -17,7 +17,6 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet'
 import { useLocale } from '@/hooks/useLocale'
-import { SITE_NAME } from '@/lib/constants'
 
 export function Header() {
   const { t } = useTranslation('common')
@@ -42,7 +41,7 @@ export function Header() {
           to="/"
           className="font-heading max-w-[9.5rem] truncate rounded-md text-sm font-semibold tracking-tight text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring min-[390px]:max-w-none"
         >
-          {SITE_NAME}
+          {t('siteName')}
         </Link>
 
         <div className="hidden items-center gap-2 lg:flex">

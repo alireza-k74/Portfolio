@@ -1,5 +1,7 @@
 {
   "greeting": "سلام، من {{name}} هستم",
+  "firstName": "علیرضا",
+  "lastName": "کرمی",
   "name": "علیرضا کرمی",
   "title": "مهندس ارشد موبایل و فرانت‌اند | React Native | React | TypeScript",
   "intro": "بیش از ۷ سال در توسعه اپلیکیشن‌های موبایل و وب با React Native، React و TypeScript — از پروژه‌های بزرگ واقعی تا انتشار محصول در مارکت.",

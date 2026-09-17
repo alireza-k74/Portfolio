@@ -7,7 +7,6 @@ import { ResumeDownloadButtons } from '@/components/common/ResumeDownloadButtons
 import { SocialLinks } from '@/components/common/SocialLinks'
 import { Section } from '@/components/layout/Section'
 import { Button } from '@/components/ui/button'
-import { profile } from '@/data/profile'
 import { ROUTES } from '@/lib/constants'
 
 const HIGHLIGHT_KEYS = [
@@ -19,7 +18,6 @@ const HIGHLIGHT_KEYS = [
 
 export function HeroSection() {
   const { t } = useTranslation(['home', 'common'])
-  const firstName = profile.name.split(' ')[0] ?? profile.name
 
   return (
     <Section
@@ -38,7 +36,7 @@ export function HeroSection() {
             size="display"
             className="text-balance"
           >
-            {t('home:greeting', { name: firstName })}
+            {t('home:greeting', { name: t('home:firstName') })}
           </Heading>
 
           <p className="max-w-2xl text-base text-foreground sm:text-lg md:text-xl">

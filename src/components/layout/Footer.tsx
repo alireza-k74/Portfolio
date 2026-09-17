@@ -5,10 +5,10 @@ import { SocialLinks } from '@/components/common/SocialLinks'
 import { Container } from '@/components/layout/Container'
 import { MainNav } from '@/components/layout/MainNav'
 import { Separator } from '@/components/ui/separator'
-import { SITE_NAME } from '@/lib/constants'
 
 export function Footer() {
   const { t } = useTranslation('common')
+  const siteName = t('siteName')
 
   return (
     <footer className="mt-auto border-t border-border/80 bg-card/40 print:hidden">
@@ -19,7 +19,7 @@ export function Footer() {
               to="/"
               className="font-heading inline-flex rounded-md text-sm font-semibold tracking-tight text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
-              {SITE_NAME}
+              {siteName}
             </Link>
             <p className="text-sm text-muted-foreground">
               {t('footer.tagline')}
@@ -39,7 +39,7 @@ export function Footer() {
         <p className="text-sm text-muted-foreground">
           {t('footer.copyright', {
             year: new Date().getFullYear(),
-            name: SITE_NAME,
+            name: siteName,
           })}
         </p>
       </Container>

@@ -1,5 +1,7 @@
 {
   "greeting": "Hi, I'm {{name}}",
+  "firstName": "Alireza",
+  "lastName": "Karami",
   "name": "Alireza Karami",
   "title": "Senior Mobile & Frontend Engineer | React Native | React | TypeScript",
   "intro": "7+ years building mobile and web apps with React Native, React, and TypeScript — from large production products to published apps.",

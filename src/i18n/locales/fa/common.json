@@ -42,6 +42,7 @@
     "label": "زبان",
     "option": "تغییر به {{label}}"
   },
+  "siteName": "علیرضا کرمی",
   "footer": {
     "copyright": "© {{year}} {{name}}",
     "tagline": "مهندس ارشد موبایل و فرانت‌اند",
