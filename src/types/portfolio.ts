@@ -79,7 +79,7 @@ export type EducationItem = {
   location?: string
 }
 
-export type ProjectCategory = 'web' | 'mobile' | 'ai' | 'other'
+export type ProjectCategory = 'web' | 'mobile' | 'ai' | 'aspnet' | 'other'
 
 export type ProjectStatus = 'completed' | 'in-progress' | 'archived'
 

@@ -174,7 +174,7 @@ export const projects: Project[] = [
       'ASP.NET Core Web API for personal notes with JWT auth, EF Core, and SQL Server.',
     longDescription:
       'A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration.',
-    category: 'other',
+    category: 'aspnet',
     technologies: [
       'ASP.NET Core',
       'C#',

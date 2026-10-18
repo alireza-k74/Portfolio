@@ -6,6 +6,7 @@ export const PROJECT_FILTERS = [
   'mobile',
   'react',
   'react-native',
+  'aspnet',
   'ai',
 ] as const
 
@@ -47,6 +48,13 @@ export function matchesProjectFilter(
       return (
         hasTechnology(project, 'React Native') ||
         hasTag(project, 'React Native')
+      )
+    case 'aspnet':
+      return (
+        project.category === 'aspnet' ||
+        hasTag(project, 'ASP.NET') ||
+        hasTechnology(project, 'ASP.NET Core') ||
+        hasTechnology(project, 'ASP.NET')
       )
     case 'ai':
       return (

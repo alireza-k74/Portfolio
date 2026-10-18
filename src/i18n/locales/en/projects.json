@@ -11,6 +11,7 @@
     "mobile": "Mobile",
     "react": "React",
     "react-native": "React Native",
+    "aspnet": "ASP.NET",
     "ai": "AI"
   },
   "empty": {
@@ -37,6 +38,7 @@
     "web": "Web",
     "mobile": "Mobile",
     "ai": "AI",
+    "aspnet": "ASP.NET",
     "other": "Other"
   },
   "status": {

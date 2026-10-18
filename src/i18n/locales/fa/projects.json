@@ -11,6 +11,7 @@
     "mobile": "موبایل",
     "react": "React",
     "react-native": "React Native",
+    "aspnet": "ASP.NET",
     "ai": "هوش مصنوعی"
   },
   "empty": {
@@ -37,6 +38,7 @@
     "web": "وب",
     "mobile": "موبایل",
     "ai": "هوش مصنوعی",
+    "aspnet": "ASP.NET",
     "other": "سایر"
   },
   "status": {
