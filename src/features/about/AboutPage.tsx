@@ -4,6 +4,7 @@ import { Heading } from '@/components/common/Heading'
 import { Page, PageHeader } from '@/components/common/Page'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
+import { profile } from '@/data/profile'
 
 const STRENGTH_KEYS = ['0', '1', '2', '3'] as const
 const APPROACH_POINT_KEYS = ['0', '1', '2', '3'] as const
@@ -18,13 +19,28 @@ export function AboutPage() {
       <PageHeader title={t('title')} description={t('description')} />
 
       <div className="mt-10 space-y-12">
-        <section aria-labelledby="about-summary-heading" className="space-y-3">
-          <Heading id="about-summary-heading" as="h2" size="md">
-            {t('summary.title')}
-          </Heading>
-          <p className="max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            {t('summary.body')}
-          </p>
+        <section
+          aria-labelledby="about-summary-heading"
+          className="grid gap-8 sm:grid-cols-[minmax(0,12rem)_minmax(0,1fr)] sm:items-start sm:gap-10"
+        >
+          <div className="mx-auto w-40 overflow-hidden rounded-2xl border border-border/80 bg-muted/40 sm:mx-0 sm:w-full">
+            <img
+              src={profile.image}
+              alt={profile.name}
+              className="aspect-[4/5] w-full object-cover object-top"
+              width={320}
+              height={400}
+              decoding="async"
+            />
+          </div>
+          <div className="space-y-3">
+            <Heading id="about-summary-heading" as="h2" size="md">
+              {t('summary.title')}
+            </Heading>
+            <p className="max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+              {t('summary.body')}
+            </p>
+          </div>
         </section>
 
         <Separator />

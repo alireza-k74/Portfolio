@@ -73,6 +73,44 @@
         "0": "انتشار در کافه‌بازار و سیب‌اپ"
       }
     },
+    "hudu": {
+      "title": "HUDU",
+      "description": "بازار کار پاره‌وقت مبتنی بر هوش مصنوعی با React Native — ثبت پروژه، دریافت پیشنهاد، چت و پرداخت امن.",
+      "longDescription": "HUDU یک مارکت‌پلیس گیگ مبتنی بر هوش مصنوعی است که Listerها و Doerهای محلی را به هم وصل می‌کند. کاربران پروژه ثبت می‌کنند، پیشنهادها را بررسی می‌کنند، داخل اپ چت می‌کنند و پس از اتمام کار، پرداخت امانی را آزاد می‌کنند. به‌عنوان اپلیکیشن بزرگ React Native با تمرکز بر عملکرد و اتصال API توسعه یافته است.",
+      "features": {
+        "0": "ثبت پروژه با عکس و نیازمندی‌ها",
+        "1": "پیشنهاد رقابتی، چت درون‌برنامه‌ای و پروفایل Doer",
+        "2": "پرداخت امانی و آزادسازی پس از اتمام کار",
+        "3": "پشتیبانی هوش مصنوعی برای لیست و پیشنهاد"
+      },
+      "results": {
+        "0": "انتشار در Google Play در صفحه توسعه‌دهنده HUDU"
+      }
+    },
+    "compressa": {
+      "title": "Compressa | فشرده‌یار",
+      "description": "اپلیکیشن اندروید Kotlin برای فشرده‌سازی تصویر، ویدیو و PDF با Jetpack Compose و معماری تمیز.",
+      "longDescription": "Compressa (فشرده‌یار) اپلیکیشن اندروید فشرده‌سازی رسانه با Kotlin و Jetpack Compose است. از فشرده‌سازی تصویر، ویدیو و PDF، صف چندآیتمی با Foreground Service، نتیجه قبل/بعد، تاریخچه، اسکنر تکراری و اسکنر فایل‌های بزرگ پشتیبانی می‌کند — همراه با فارسی/انگلیسی و RTL/LTR.",
+      "features": {
+        "0": "موتور فشرده‌سازی تصویر، ویدیو و PDF",
+        "1": "صف فشرده‌سازی با Foreground Service و پیشرفت",
+        "2": "نتیجه قبل/بعد، تاریخچه و ویور رسانه",
+        "3": "اسکنر تکراری و فایل‌های بزرگ با فارسی/انگلیسی و RTL/LTR"
+      },
+      "architecture": "ماژول‌های فیچر تمیز با UI Compose، Use Caseها، موتورهای رسانه، تنظیمات DataStore و تاریخچه SQLite."
+    },
+    "noteapp-aspnet": {
+      "title": "NoteApp ASP.NET",
+      "description": "Web API با ASP.NET Core برای یادداشت‌های شخصی با احراز هویت JWT، EF Core و SQL Server.",
+      "longDescription": "بک‌اند یادداشت‌برداری با ASP.NET Core. شامل کنترلرهای Auth و Notes، Entity Framework Core با SQL Server، احراز هویت JWT Bearer، DTOها و Swagger برای بررسی API.",
+      "features": {
+        "0": "احراز هویت و مجوزدهی با JWT",
+        "1": "CRUD یادداشت‌ها از طریق کنترلرهای REST",
+        "2": "لایه داده EF Core همراه با Migration",
+        "3": "DTO، سرویس Auth و Swagger با اسکیم Bearer"
+      },
+      "architecture": "ASP.NET Core Web API با Controllers، Services، DTOs، Models، Data و Migrationهای EF Core."
+    },
     "portfolio-website": {
       "title": "Web Portfolio",
       "description": "وب‌سایت شخصی رزومه و نمونه‌کار با React، TypeScript و Vite.",

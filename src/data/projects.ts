@@ -100,6 +100,106 @@ export const projects: Project[] = [
     results: ['Published on Cafe Bazaar and SibApp'],
   },
   {
+    id: 'hudu',
+    title: 'HUDU',
+    description:
+      'AI-powered odd-job marketplace built with React Native — list projects, receive bids, chat, and pay through escrow.',
+    longDescription:
+      'HUDU is an AI-powered gig marketplace that connects Listers and local Doers. Users post projects, review competitive bids, chat in-app, and release escrowed payments when work is complete. Built and maintained as a large React Native application with performance-focused UI and API integrations.',
+    category: 'mobile',
+    technologies: [
+      'React Native',
+      'TypeScript',
+      'REST',
+      'GraphQL',
+      'Reanimated',
+    ],
+    featured: true,
+    status: 'completed',
+    tags: ['React Native', 'Mobile', 'Marketplace'],
+    image: '/projects/mobile.svg',
+    liveUrl:
+      'https://play.google.com/store/apps/dev?id=5887758085440706718',
+    links: [
+      {
+        label: 'Google Play',
+        url: 'https://play.google.com/store/apps/dev?id=5887758085440706718',
+      },
+    ],
+    features: [
+      'Project listings with photos and requirements',
+      'Competitive bidding from local Doers',
+      'In-app chat between Listers and Doers',
+      'Escrowed payments released on completion',
+      'Ratings, reviews, and Doer profiles',
+      'AI-assisted listing and bidding support',
+    ],
+    results: ['Published on Google Play under the HUDU developer listing'],
+  },
+  {
+    id: 'compressa',
+    title: 'Compressa | فشرده‌یار',
+    description:
+      'Kotlin Android app for compressing images, video, and PDF with Jetpack Compose and clean architecture.',
+    longDescription:
+      'Compressa (فشرده‌یار) is an Android media compression app built with Kotlin and Jetpack Compose. It supports image, video, and PDF compression, multi-select queues with a foreground service, before/after results, history, duplicate scanning, and large-file scanning — with Persian/English and RTL/LTR.',
+    category: 'mobile',
+    technologies: [
+      'Kotlin',
+      'Jetpack Compose',
+      'Material 3',
+      'Media3',
+      'DataStore',
+      'SQLite',
+    ],
+    featured: true,
+    status: 'in-progress',
+    githubUrl: 'https://github.com/alireza-k74/Compressa',
+    tags: ['Kotlin', 'Android', 'Mobile'],
+    image: '/projects/mobile.svg',
+    features: [
+      'Image, video, and PDF compression engines',
+      'Multi-item compression queue with foreground service',
+      'Image crop/rotate, preview viewer, and size estimates',
+      'Before/after results and local compression history',
+      'Duplicate scanner and large-file scanner',
+      'Persian and English with RTL/LTR and theming',
+    ],
+    architecture:
+      'Clean feature modules with Compose UI, use cases, media engines, DataStore preferences, and SQLite history.',
+  },
+  {
+    id: 'noteapp-aspnet',
+    title: 'NoteApp ASP.NET',
+    description:
+      'ASP.NET Core Web API for personal notes with JWT auth, EF Core, and SQL Server.',
+    longDescription:
+      'A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration.',
+    category: 'other',
+    technologies: [
+      'ASP.NET Core',
+      'C#',
+      'Entity Framework Core',
+      'SQL Server',
+      'JWT',
+      'Swagger',
+    ],
+    featured: false,
+    status: 'completed',
+    githubUrl: 'https://github.com/alireza-k74/NoteApp-ASP.NET',
+    tags: ['ASP.NET', 'Backend', 'API'],
+    image: '/projects/portfolio.svg',
+    features: [
+      'JWT authentication and authorization',
+      'Notes CRUD via REST controllers',
+      'EF Core data layer with migrations',
+      'DTOs and service-layer auth',
+      'Swagger UI with Bearer security scheme',
+    ],
+    architecture:
+      'ASP.NET Core Web API with Controllers, Services, DTOs, Models, Data, and EF Core migrations.',
+  },
+  {
     id: 'portfolio-website',
     title: 'Web Portfolio',
     description:

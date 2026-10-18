@@ -73,6 +73,44 @@
         "0": "Published on Cafe Bazaar and SibApp"
       }
     },
+    "hudu": {
+      "title": "HUDU",
+      "description": "AI-powered odd-job marketplace built with React Native — list projects, receive bids, chat, and pay through escrow.",
+      "longDescription": "HUDU is an AI-powered gig marketplace that connects Listers and local Doers. Users post projects, review competitive bids, chat in-app, and release escrowed payments when work is complete. Built and maintained as a large React Native application with performance-focused UI and API integrations.",
+      "features": {
+        "0": "Project listings with photos and requirements",
+        "1": "Competitive bidding, in-app chat, and Doer profiles",
+        "2": "Escrowed payments released on completion",
+        "3": "AI-assisted listing and bidding support"
+      },
+      "results": {
+        "0": "Published on Google Play under the HUDU developer listing"
+      }
+    },
+    "compressa": {
+      "title": "Compressa | فشرده‌یار",
+      "description": "Kotlin Android app for compressing images, video, and PDF with Jetpack Compose and clean architecture.",
+      "longDescription": "Compressa (فشرده‌یار) is an Android media compression app built with Kotlin and Jetpack Compose. It supports image, video, and PDF compression, multi-select queues with a foreground service, before/after results, history, duplicate scanning, and large-file scanning — with Persian/English and RTL/LTR.",
+      "features": {
+        "0": "Image, video, and PDF compression engines",
+        "1": "Compression queue with foreground service and progress",
+        "2": "Before/after results, history, and media viewer",
+        "3": "Duplicate and large-file scanners with Persian/English RTL/LTR"
+      },
+      "architecture": "Clean feature modules with Compose UI, use cases, media engines, DataStore preferences, and SQLite history."
+    },
+    "noteapp-aspnet": {
+      "title": "NoteApp ASP.NET",
+      "description": "ASP.NET Core Web API for personal notes with JWT auth, EF Core, and SQL Server.",
+      "longDescription": "A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration.",
+      "features": {
+        "0": "JWT authentication and authorization",
+        "1": "Notes CRUD via REST controllers",
+        "2": "EF Core data layer with migrations",
+        "3": "DTOs, auth service, and Swagger with Bearer scheme"
+      },
+      "architecture": "ASP.NET Core Web API with Controllers, Services, DTOs, Models, Data, and EF Core migrations."
+    },
     "portfolio-website": {
       "title": "Web Portfolio",
       "description": "Personal resume and portfolio website with React, TypeScript, and Vite.",

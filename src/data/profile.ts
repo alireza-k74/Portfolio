@@ -1,3 +1,4 @@
+import personalImage from '@/assets/images/personal_image.png'
 import type { Profile } from '@/types/portfolio'
 
 export const profile: Profile = {
@@ -10,6 +11,7 @@ export const profile: Profile = {
   phone: '09120734656',
   github: 'https://github.com/alireza-k74',
   linkedin: 'https://www.linkedin.com/in/alirezak74/',
+  image: personalImage,
   resumeUrls: {
     en: '/resume-en.pdf',
     fa: '/resume-fa.pdf',

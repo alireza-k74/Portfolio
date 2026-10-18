@@ -21,6 +21,7 @@ export type Profile = {
   phone?: string
   github: string
   linkedin: string
+  image: string
   resumeUrls: {
     en: string
     fa: string
