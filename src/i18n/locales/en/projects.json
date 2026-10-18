@@ -44,6 +44,21 @@
     "archived": "Archived"
   },
   "items": {
+    "togething": {
+      "title": "Togething",
+      "description": "Social React Native app for small wins, goal storylines, community support, and coaching — on the App Store and Google Play.",
+      "longDescription": "Togething is a community built to help people change their story through small steps and celebrated wins. Users create storylines, share steps, support each other, find accountability partners, and request coaching. Basic features are permanently free with no ads.",
+      "features": {
+        "0": "Storylines, shared steps, and positive social reinforcement",
+        "1": "Accountability partners, groups, and real-time chat",
+        "2": "1:1 coaching with in-app subscriptions",
+        "3": "Watching, daily steps, notifications, and watcher invites"
+      },
+      "results": {
+        "0": "Published on the App Store and Google Play",
+        "1": "Improved screen load speed and reduced loading time by ~35%"
+      }
+    },
     "damdast": {
       "title": "Damdast | دم‌دست",
       "description": "Offline-first everyday utility app for Android and iOS, built with React Native and TypeScript.",

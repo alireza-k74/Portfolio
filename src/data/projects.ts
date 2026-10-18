@@ -2,6 +2,51 @@ import type { Project } from '@/types/portfolio'
 
 export const projects: Project[] = [
   {
+    id: 'togething',
+    title: 'Togething',
+    description:
+      'Social React Native app for small wins, goal storylines, community support, and coaching — on the App Store and Google Play.',
+    longDescription:
+      'Togething is a community built to help people change their story through small steps and celebrated wins. Users create storylines, share steps, support each other, find accountability partners, and request coaching. Basic features are permanently free with no ads.',
+    category: 'mobile',
+    technologies: [
+      'React Native',
+      'TypeScript',
+      'Redux',
+      'Zustand',
+      'SignalR',
+      'In-App Purchase',
+    ],
+    featured: true,
+    status: 'completed',
+    tags: ['React Native', 'Mobile', 'Social'],
+    image: '/projects/mobile.svg',
+    liveUrl: 'https://apps.apple.com/us/app/togething/id6476815844',
+    links: [
+      {
+        label: 'App Store',
+        url: 'https://apps.apple.com/us/app/togething/id6476815844',
+      },
+      {
+        label: 'Google Play',
+        url: 'https://play.google.com/store/apps/details?id=com.togething',
+      },
+    ],
+    features: [
+      'Storylines for life changes and intentions',
+      'Steps sharing with positive social reinforcement',
+      'Accountability partner matching',
+      'Real-time chat and community support',
+      '1:1 coaching with in-app subscriptions',
+      'Watching, groups, and daily steps flows',
+      'Notifications and watcher invites',
+    ],
+    results: [
+      'Published on the App Store and Google Play',
+      'Improved screen load speed and reduced loading time by ~35%',
+    ],
+  },
+  {
     id: 'damdast',
     title: 'Damdast | دم‌دست',
     description:
@@ -52,9 +97,7 @@ export const projects: Project[] = [
       'Gamification and XP system',
       'Responsive mobile and tablet layout',
     ],
-    results: [
-      'Published on Cafe Bazaar and SibApp',
-    ],
+    results: ['Published on Cafe Bazaar and SibApp'],
   },
   {
     id: 'portfolio-website',
