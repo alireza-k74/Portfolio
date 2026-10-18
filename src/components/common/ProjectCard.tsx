@@ -23,7 +23,10 @@ export function ProjectCard({ project, className }: ProjectCardProps) {
   return (
     <article
       className={cn(
-        'group flex h-full flex-col overflow-hidden rounded-xl border border-border/80 bg-card/60 transition-colors hover:border-border hover:bg-card',
+        'group flex h-full flex-col overflow-hidden rounded-xl border bg-card/60 transition-colors hover:bg-card',
+        project.featured
+          ? 'border-primary/45 ring-1 ring-primary/20 hover:border-primary/70'
+          : 'border-border/80 hover:border-border',
         className,
       )}
     >
@@ -42,9 +45,14 @@ export function ProjectCard({ project, className }: ProjectCardProps) {
             className="flex size-full items-center justify-center bg-gradient-to-br from-primary/20 via-accent/30 to-muted"
           />
         )}
-        <Badge className="absolute start-3 top-3" variant="secondary">
-          {t(`projects:categories.${project.category}`)}
-        </Badge>
+        <div className="absolute start-3 top-3 flex flex-wrap gap-1.5">
+          {project.featured ? (
+            <Badge variant="default">{t('projects:featured')}</Badge>
+          ) : null}
+          <Badge variant="secondary">
+            {t(`projects:categories.${project.category}`)}
+          </Badge>
+        </div>
       </div>
 
       <div className="flex flex-1 flex-col gap-4 p-4 sm:p-5">

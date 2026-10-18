@@ -1,6 +1,7 @@
 {
   "title": "پروژه‌ها",
   "description": "نمونه کارهای منتخب در وب و موبایل.",
+  "featured": "برگزیده",
   "results": "{{count}} پروژه",
   "results_plural": "{{count}} پروژه",
   "filters": {
@@ -110,6 +111,119 @@
         "3": "DTO، سرویس Auth و Swagger با اسکیم Bearer"
       },
       "architecture": "ASP.NET Core Web API با Controllers، Services، DTOs، Models، Data و Migrationهای EF Core."
+    },
+    "gridwatch": {
+      "title": "GridWatch",
+      "description": "بک‌اند NestJS سازمانی برای مانیتورینگ چند نیروگاه با PostgreSQL، Redis و BullMQ.",
+      "longDescription": "بک‌اند مانیتورینگ تولیدمحور برای نیروگاه‌ها. پشتیبانی از مدیریت چند نیروگاه، جمع‌آوری زمان‌بندی‌شده با retry، RBAC، نوشتن تراکنشی و مسیر توسعه به داشبورد، هشدار و آنالیتیکس.",
+      "features": {
+        "0": "مدیریت چند نیروگاه با پروتکل‌های قابل تنظیم",
+        "1": "Polling زمان‌بندی‌شده با BullMQ و retry",
+        "2": "کنترل دسترسی مبتنی بر نقش",
+        "3": "نوشتن تراکنشی، idempotency و استقرار با Docker"
+      },
+      "architecture": "بک‌اند ماژولار NestJS با Prisma/PostgreSQL، صف Redis، احراز هویت JWT و Swagger."
+    },
+    "react-nextjs-boilerplate": {
+      "title": "React Next.js Boilerplate",
+      "description": "استارتر سازمانی Next.js برای SaaS و داشبورد با App Router، next-intl RTL و TypeScript سخت‌گیرانه.",
+      "longDescription": "Boilerplate چندزبانه و آماده‌ی پروداکشن Next.js با Tailwind v4، UI شبیه shadcn، مسیرهای محافظت‌شده، Axios + TanStack Query، Zustand، React Hook Form، پوشش Firebase و هوک‌های Husky.",
+      "features": {
+        "0": "App Router با TypeScript سخت‌گیرانه",
+        "1": "بومی‌سازی EN/FA با پشتیبانی RTL",
+        "2": "ساختار feature-first برای auth و users",
+        "3": "Axios، TanStack Query، Zustand و پوشش Firebase"
+      },
+      "architecture": "Next.js App Router مبتنی بر فیچر با UI مشترک، data-fetching و بلوک‌های auth."
+    },
+    "rn-collapsible-header-tabs": {
+      "title": "RN Collapsible Header Tabs",
+      "description": "کامپوننت تب React Native با هدر جمع‌شونده و پشتیبانی از FlatList، FlashList و RecyclerListView.",
+      "longDescription": "کتابخانه متن‌باز React Native برای صفحات تب‌دار با هدر collapsible نرم. پشتیبانی از چند backend لیست، pull-to-refresh، infinite scroll و TypeScript.",
+      "features": {
+        "0": "هدر جمع‌شونده با انیمیشن نرم",
+        "1": "آداپتر FlatList، FlashList و RecyclerListView",
+        "2": "تب‌بار قابل تنظیم با pull-to-refresh",
+        "3": "انتشار روی npm با تایپ‌های TypeScript"
+      },
+      "results": {
+        "0": "۳ ستاره در GitHub",
+        "1": "موجود در npm"
+      }
+    },
+    "my-react-native-app": {
+      "title": "My React Native App",
+      "description": "اپ Expo + React Native برای نمایش کاربران DummyJSON و پیشنهاد تطابق ساده.",
+      "longDescription": "اپ کوچک Expo برای دریافت و نمایش کاربران از DummyJSON، همراه با جریان سبک matching برای پیشنهاد ارتباط.",
+      "features": {
+        "0": "لیست کاربران از API مربوط به DummyJSON",
+        "1": "جریان پیشنهاد تطابق ساده",
+        "2": "گردش‌کار Expo Go / شبیه‌ساز"
+      }
+    },
+    "shopy": {
+      "title": "Shopy",
+      "description": "فروشگاه Next.js با پوشه API همراه و استایل Tailwind.",
+      "longDescription": "وب‌اپ فروشگاهی با Next.js شامل pages/app routes، Tailwind CSS و بخش shopy-api برای endpointهای بک‌اند.",
+      "features": {
+        "0": "صفحات فروشگاهی Next.js",
+        "1": "UI مبتنی بر Tailwind",
+        "2": "API همراه در shopy-api"
+      }
+    },
+    "shop-flutter": {
+      "title": "Shop Flutter",
+      "description": "اپ فروشگاهی Flutter برای Android، iOS و دسکتاپ.",
+      "longDescription": "استارتر فروشگاهی چندپلتفرمه Flutter با UI دارت و runnerهای موبایل و دسکتاپ.",
+      "features": {
+        "0": "ساختار پروژه چندپلتفرمه Flutter",
+        "1": "پایه UI موبایل برای فروشگاه"
+      }
+    },
+    "weather-app-flutter": {
+      "title": "Weather App Flutter",
+      "description": "اپلیکیشن هواشناسی Flutter برای پلتفرم‌های موبایل.",
+      "longDescription": "کلاینت هواشناسی Flutter با Dart در قالب پروژه چندپلتفرمه.",
+      "features": {
+        "0": "UI هواشناسی با Flutter",
+        "1": "Runnerهای چندپلتفرمه Flutter"
+      }
+    },
+    "todo-app-flutter": {
+      "title": "ToDo App Flutter",
+      "description": "اپلیکیشن کارهای روزمره با Flutter.",
+      "longDescription": "اپ مدیریت کارها با Flutter و Dart برای هدف‌های موبایل.",
+      "features": {
+        "0": "UI لیست کارها با Flutter",
+        "1": "راه‌اندازی پروژه چندپلتفرمه Flutter"
+      }
+    },
+    "weather-app-react-native": {
+      "title": "Weather App React Native",
+      "description": "اپ هواشناسی React Native برای Android و iOS.",
+      "longDescription": "کلاینت موبایل هواشناسی با React Native برای نمایش اطلاعات آب‌وهوا روی دستگاه.",
+      "features": {
+        "0": "اسکلت اپ هواشناسی React Native",
+        "1": "چیدمان موبایل‌محور"
+      }
+    },
+    "todo-app-react-native": {
+      "title": "ToDo App React Native",
+      "description": "اپ ToDo با React Native CLI و TypeScript.",
+      "longDescription": "اپ مدیریت کارها ساخته‌شده با React Native CLI و TypeScript.",
+      "features": {
+        "0": "ساختار پروژه React Native CLI",
+        "1": "صفحه‌های موبایل مبتنی بر TypeScript"
+      }
+    },
+    "todo-app": {
+      "title": "ToDo App",
+      "description": "اپلیکیشن ToDo چندپلتفرمه برای Android و iOS با React Native.",
+      "longDescription": "اپ ToDo با React Native برای Android و iOS، پیاده‌سازی‌شده عمدتاً با TypeScript.",
+      "features": {
+        "0": "مدیریت کارها برای Android و iOS",
+        "1": "کدبیس React Native + TypeScript"
+      }
     },
     "portfolio-website": {
       "title": "Web Portfolio",

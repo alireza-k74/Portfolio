@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 import { getFeaturedProjects, projects } from '@/data/projects'
 import { ROUTES } from '@/lib/constants'
 
-function getHomeProjects(limit = 2) {
+function getHomeProjects(limit = 3) {
   const featured = getFeaturedProjects()
   if (featured.length >= limit) {
     return featured.slice(0, limit)
@@ -23,7 +23,7 @@ function getHomeProjects(limit = 2) {
 
 export function FeaturedProjects() {
   const { t } = useTranslation('home')
-  const items = getHomeProjects(2)
+  const items = getHomeProjects(3)
 
   return (
     <Section aria-labelledby="home-featured-heading" className="bg-card/25">
@@ -43,7 +43,7 @@ export function FeaturedProjects() {
           </Button>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2 md:gap-5">
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 md:gap-5">
           {items.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

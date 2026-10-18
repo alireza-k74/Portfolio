@@ -22,7 +22,9 @@ export function ProjectsPage() {
     ? rawFilter
     : 'all'
 
-  const filteredProjects = filterProjects(projects, activeFilter)
+  const filteredProjects = [...filterProjects(projects, activeFilter)].sort(
+    (a, b) => Number(b.featured) - Number(a.featured),
+  )
 
   const handleFilterChange = (filter: ProjectFilter) => {
     const nextParams = new URLSearchParams(searchParams)

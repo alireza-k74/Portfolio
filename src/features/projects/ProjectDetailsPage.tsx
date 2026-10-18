@@ -87,7 +87,10 @@ function ProjectHero({
       <div className="flex flex-col gap-5">
         <div className="space-y-3">
           <div className="flex flex-wrap gap-2">
-            <Badge>{t(`projects:categories.${project.category}`)}</Badge>
+            {project.featured ? <Badge>{t('projects:featured')}</Badge> : null}
+            <Badge variant="secondary">
+              {t(`projects:categories.${project.category}`)}
+            </Badge>
             <Badge variant="secondary">
               {t(`projects:status.${project.status}`)}
             </Badge>

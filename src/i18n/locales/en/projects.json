@@ -1,6 +1,7 @@
 {
   "title": "Projects",
   "description": "Selected work across web and mobile.",
+  "featured": "Featured",
   "results": "{{count}} project",
   "results_plural": "{{count}} projects",
   "filters": {
@@ -110,6 +111,119 @@
         "3": "DTOs, auth service, and Swagger with Bearer scheme"
       },
       "architecture": "ASP.NET Core Web API with Controllers, Services, DTOs, Models, Data, and EF Core migrations."
+    },
+    "gridwatch": {
+      "title": "GridWatch",
+      "description": "Enterprise NestJS backend for multi-plant power monitoring with PostgreSQL, Redis, and BullMQ.",
+      "longDescription": "Production-oriented monitoring backend for power plants. Supports multi-plant management, scheduled data collection with retries, RBAC, transactional writes, and a path toward dashboards, alerting, and analytics.",
+      "features": {
+        "0": "Multi-plant management with configurable protocols",
+        "1": "Scheduled polling via BullMQ with retries and backoff",
+        "2": "Role-based access control",
+        "3": "Transactional writes with idempotency and Dockerized deploy"
+      },
+      "architecture": "NestJS modular backend with Prisma/PostgreSQL, Redis queues, JWT auth, and Swagger."
+    },
+    "react-nextjs-boilerplate": {
+      "title": "React Next.js Boilerplate",
+      "description": "Enterprise Next.js starter for SaaS and dashboards with App Router, next-intl RTL, and strict TypeScript.",
+      "longDescription": "Production-ready multilingual Next.js boilerplate with Tailwind v4, shadcn-style UI, protected routes, Axios + TanStack Query, Zustand, React Hook Form, Firebase SDK wrappers, and Husky pre-commit hooks.",
+      "features": {
+        "0": "App Router with strict TypeScript",
+        "1": "EN/FA localization with RTL support",
+        "2": "Auth, users, and feature-first structure",
+        "3": "Axios, TanStack Query, Zustand, and Firebase wrappers"
+      },
+      "architecture": "Feature-first Next.js App Router with shared UI, data-fetching, and auth building blocks."
+    },
+    "rn-collapsible-header-tabs": {
+      "title": "RN Collapsible Header Tabs",
+      "description": "High-performance React Native tab view with collapsible header, FlatList, FlashList, and RecyclerListView.",
+      "longDescription": "Open-source React Native library for tabbed screens with smooth collapsible headers. Supports multiple list backends, pull-to-refresh, infinite scroll, and TypeScript.",
+      "features": {
+        "0": "Collapsible header with smooth animations",
+        "1": "FlatList, FlashList, and RecyclerListView adapters",
+        "2": "Customizable tab bar with pull-to-refresh",
+        "3": "Published on npm with TypeScript types"
+      },
+      "results": {
+        "0": "3 GitHub stars",
+        "1": "Available on npm"
+      }
+    },
+    "my-react-native-app": {
+      "title": "My React Native App",
+      "description": "Expo + React Native app that lists DummyJSON users and suggests simple matches.",
+      "longDescription": "Small Expo SDK app focused on fetching and displaying users from DummyJSON, with a lightweight matching flow for suggested connections.",
+      "features": {
+        "0": "User list from DummyJSON API",
+        "1": "Simple suggested-match flow",
+        "2": "Expo Go / simulator workflow"
+      }
+    },
+    "shopy": {
+      "title": "Shopy",
+      "description": "Next.js e-commerce storefront with a companion API folder and Tailwind styling.",
+      "longDescription": "Shopping web app bootstrapped with Next.js, including pages/app routes, Tailwind CSS, and a nested shopy-api area for backend endpoints.",
+      "features": {
+        "0": "Next.js storefront pages",
+        "1": "Tailwind-based UI",
+        "2": "Companion API under shopy-api"
+      }
+    },
+    "shop-flutter": {
+      "title": "Shop Flutter",
+      "description": "Flutter shopping app targeting Android, iOS, and desktop platforms.",
+      "longDescription": "Cross-platform Flutter shop starter with Dart UI and platform runners for mobile and desktop.",
+      "features": {
+        "0": "Flutter multi-platform project structure",
+        "1": "Shop-oriented mobile UI foundation"
+      }
+    },
+    "weather-app-flutter": {
+      "title": "Weather App Flutter",
+      "description": "Flutter weather application for mobile platforms.",
+      "longDescription": "Flutter weather client built with Dart, structured as a multi-platform Flutter project.",
+      "features": {
+        "0": "Weather UI built with Flutter",
+        "1": "Multi-platform Flutter runners"
+      }
+    },
+    "todo-app-flutter": {
+      "title": "ToDo App Flutter",
+      "description": "Flutter to-do application for managing daily tasks.",
+      "longDescription": "Task management app built with Flutter and Dart across mobile platform targets.",
+      "features": {
+        "0": "Task list UI with Flutter",
+        "1": "Multi-platform Flutter project setup"
+      }
+    },
+    "weather-app-react-native": {
+      "title": "Weather App React Native",
+      "description": "React Native weather app for Android and iOS.",
+      "longDescription": "Mobile weather client built with React Native for viewing forecast-style information on device.",
+      "features": {
+        "0": "Weather app shell for React Native",
+        "1": "Mobile-first layout"
+      }
+    },
+    "todo-app-react-native": {
+      "title": "ToDo App React Native",
+      "description": "React Native CLI to-do app bootstrapped with TypeScript.",
+      "longDescription": "Task management mobile app created with the React Native community CLI and TypeScript.",
+      "features": {
+        "0": "React Native CLI project structure",
+        "1": "TypeScript-based mobile screens"
+      }
+    },
+    "todo-app": {
+      "title": "ToDo App",
+      "description": "Cross-platform to-do application for Android and iOS with React Native.",
+      "longDescription": "React Native to-do app targeting Android and iOS, implemented primarily in TypeScript.",
+      "features": {
+        "0": "Task management for Android and iOS",
+        "1": "React Native + TypeScript codebase"
+      }
     },
     "portfolio-website": {
       "title": "Web Portfolio",
