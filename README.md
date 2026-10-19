@@ -2,6 +2,8 @@
 
 Personal portfolio website for **Alireza Karami**, Senior Mobile & Frontend Engineer. Built with React, TypeScript, and Vite — bilingual (English / فارسی), themeable, and structured for real production use.
 
+**Live demo:** [portfolio-nine-tau-mjc4j2kh24.vercel.app](https://portfolio-nine-tau-mjc4j2kh24.vercel.app/)
+
 **Live repo:** [github.com/alireza-k74/Portfolio](https://github.com/alireza-k74/Portfolio)
 
 ---
