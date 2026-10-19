@@ -5,10 +5,10 @@ export const projects: Project[] = [
     id: 'togething',
     title: 'Togething',
     description:
-      'Social React Native app for small wins, goal storylines, community support, and coaching — on the App Store and Google Play.',
+      'Social React Native app for small wins, goal storylines, community support, and coaching — fully implemented with Cursor AI; architecture and descriptions by me.',
     longDescription:
-      'Togething is a community built to help people change their story through small steps and celebrated wins. Users create storylines, share steps, support each other, find accountability partners, and request coaching. Basic features are permanently free with no ads.',
-    category: 'mobile',
+      'Togething is a community built to help people change their story through small steps and celebrated wins. Users create storylines, share steps, support each other, find accountability partners, and request coaching. Basic features are permanently free with no ads. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.',
+    category: 'ai',
     technologies: [
       'React Native',
       'TypeScript',
@@ -16,10 +16,11 @@ export const projects: Project[] = [
       'Zustand',
       'SignalR',
       'In-App Purchase',
+      'Cursor AI',
     ],
     featured: true,
     status: 'completed',
-    tags: ['React Native', 'Mobile', 'Social'],
+    tags: ['React Native', 'Mobile', 'Social', 'AI-built', 'Cursor'],
     image: '/projects/mobile.svg',
     liveUrl: 'https://apps.apple.com/us/app/togething/id6476815844',
     links: [
@@ -50,10 +51,10 @@ export const projects: Project[] = [
     id: 'damdast',
     title: 'Damdast | دم‌دست',
     description:
-      'Offline-first everyday utility app for Android and iOS, built with React Native and TypeScript.',
+      'Offline-first everyday utility app for Android and iOS — fully implemented with Cursor AI; architecture and descriptions by me.',
     longDescription:
-      'A multi-purpose daily utility app focused on UX, performance, and offline-first architecture. Published on Iranian app stores.',
-    category: 'mobile',
+      'A multi-purpose daily utility app focused on UX, performance, and offline-first architecture. Published on Iranian app stores. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.',
+    category: 'ai',
     technologies: [
       'React Native',
       'TypeScript',
@@ -65,10 +66,11 @@ export const projects: Project[] = [
       'i18next',
       'Notifee',
       'Keychain',
+      'Cursor AI',
     ],
     featured: true,
     status: 'completed',
-    tags: ['React Native', 'Mobile', 'TypeScript'],
+    tags: ['React Native', 'Mobile', 'TypeScript', 'AI-built', 'Cursor'],
     image: '/projects/mobile.svg',
     liveUrl: 'https://cafebazaar.ir/app/com.damdast.app',
     links: [
@@ -139,10 +141,10 @@ export const projects: Project[] = [
     id: 'compressa',
     title: 'Compressa | فشرده‌یار',
     description:
-      'Kotlin Android app for compressing images, video, and PDF with Jetpack Compose and clean architecture.',
+      'Kotlin Android app for compressing images, video, and PDF — fully implemented with Cursor AI; architecture and descriptions by me.',
     longDescription:
-      'Compressa (فشرده‌یار) is an Android media compression app built with Kotlin and Jetpack Compose. It supports image, video, and PDF compression, multi-select queues with a foreground service, before/after results, history, duplicate scanning, and large-file scanning — with Persian/English and RTL/LTR.',
-    category: 'mobile',
+      'Compressa (فشرده‌یار) is an Android media compression app built with Kotlin and Jetpack Compose. It supports image, video, and PDF compression, multi-select queues with a foreground service, before/after results, history, duplicate scanning, and large-file scanning — with Persian/English and RTL/LTR. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.',
+    category: 'ai',
     technologies: [
       'Kotlin',
       'Jetpack Compose',
@@ -150,11 +152,12 @@ export const projects: Project[] = [
       'Media3',
       'DataStore',
       'SQLite',
+      'Cursor AI',
     ],
     featured: false,
     status: 'in-progress',
     githubUrl: 'https://github.com/alireza-k74/Compressa',
-    tags: ['Kotlin', 'Android', 'Mobile'],
+    tags: ['Kotlin', 'Android', 'Mobile', 'AI-built', 'Cursor'],
     image: '/projects/mobile.svg',
     features: [
       'Image, video, and PDF compression engines',
@@ -171,10 +174,10 @@ export const projects: Project[] = [
     id: 'noteapp-aspnet',
     title: 'NoteApp ASP.NET',
     description:
-      'ASP.NET Core Web API for personal notes with JWT auth, EF Core, and SQL Server.',
+      'ASP.NET Core Web API for personal notes — fully implemented with Cursor AI; architecture and descriptions by me.',
     longDescription:
-      'A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration.',
-    category: 'aspnet',
+      'A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.',
+    category: 'ai',
     technologies: [
       'ASP.NET Core',
       'C#',
@@ -182,11 +185,12 @@ export const projects: Project[] = [
       'SQL Server',
       'JWT',
       'Swagger',
+      'Cursor AI',
     ],
     featured: false,
     status: 'completed',
     githubUrl: 'https://github.com/alireza-k74/NoteApp-ASP.NET',
-    tags: ['ASP.NET', 'Backend', 'API'],
+    tags: ['ASP.NET', 'Backend', 'API', 'AI-built', 'Cursor'],
     image: '/projects/portfolio.svg',
     features: [
       'JWT authentication and authorization',
@@ -453,10 +457,10 @@ export const projects: Project[] = [
     id: 'portfolio-website',
     title: 'Web Portfolio',
     description:
-      'Personal resume and portfolio website built with React, TypeScript, and Vite.',
+      'Personal resume and portfolio website — fully implemented with Cursor AI; architecture and descriptions by me.',
     longDescription:
-      'Professional personal site showcasing experience, skills, and projects with modern React tooling.',
-    category: 'web',
+      'Professional personal site showcasing experience, skills, and projects with modern React tooling. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.',
+    category: 'ai',
     technologies: [
       'React',
       'TypeScript',
@@ -468,17 +472,18 @@ export const projects: Project[] = [
       'Zod',
       'i18next',
       'Capacitor',
+      'Cursor AI',
     ],
     featured: false,
     status: 'in-progress',
     githubUrl: 'https://github.com/alireza-k74/Portfolio',
-    tags: ['React', 'Web', 'TypeScript'],
+    tags: ['React', 'Web', 'TypeScript', 'AI-built', 'Cursor'],
     image: '/projects/portfolio.svg',
     screenshots: ['/projects/portfolio.svg', '/projects/portfolio.svg'],
     problem:
       'Need a maintainable personal portfolio that reflects senior frontend and mobile engineering experience.',
     solution:
-      'Build a feature-oriented React application with typed content models, i18n, and a shared design system.',
+      'Build a feature-oriented React application with typed content models, i18n, and a shared design system — implemented with Cursor AI under human-owned architecture.',
     features: [
       'Responsive layout for mobile, tablet, and desktop',
       'Component-based reusable UI',

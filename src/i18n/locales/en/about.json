@@ -3,7 +3,7 @@
   "description": "Professional background, experience, and technology focus.",
   "summary": {
     "title": "About me",
-    "body": "Software engineer with 7+ years building mobile and web applications, focused on React, React Native, and TypeScript. I have worked on real products in social, education, communications, and utility domains. I am also strengthening React Web skills and use AI tools for development, refactoring, debugging, testing, and documentation."
+    "body": "Software engineer with 7+ years building mobile and web applications, focused on React, React Native, and TypeScript. I have worked on real products in social, education, communications, and utility domains. For about one year I have shipped full implementations with Cursor AI while owning architecture and descriptions myself."
   },
   "approach": {
     "title": "Core expertise",
@@ -38,11 +38,11 @@
   },
   "ai": {
     "title": "AI-assisted development",
-    "body": "I use coding agents and AI tools to accelerate development, code review, debugging, testing, and documentation — while keeping human ownership of architecture and final quality.",
+    "body": "For about one year I have used Cursor AI and coding agents to ship full implementations — while I own architecture, product direction, and final quality. Projects such as Togething, Damdast, Compressa, NoteApp ASP.NET, and this portfolio were coded entirely with Cursor; architecture and descriptions were defined by me.",
     "points": {
-      "0": "Faster implementation and refactoring with human review",
-      "1": "Debugging and testing with AI support",
-      "2": "More efficient documentation and code review"
+      "0": "Full implementation with Cursor AI under human-owned architecture",
+      "1": "Debugging, testing, and refactoring with AI support",
+      "2": "Clear separation: AI writes code; I design structure and descriptions"
     }
   },
   "focus": {

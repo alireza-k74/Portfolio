@@ -12,7 +12,7 @@
     "react": "React",
     "react-native": "React Native",
     "aspnet": "ASP.NET",
-    "ai": "AI"
+    "ai": "Built with Cursor"
   },
   "empty": {
     "title": "No projects match this filter",
@@ -37,7 +37,7 @@
   "categories": {
     "web": "Web",
     "mobile": "Mobile",
-    "ai": "AI",
+    "ai": "Built with Cursor",
     "aspnet": "ASP.NET",
     "other": "Other"
   },
@@ -49,8 +49,8 @@
   "items": {
     "togething": {
       "title": "Togething",
-      "description": "Social React Native app for small wins, goal storylines, community support, and coaching — on the App Store and Google Play.",
-      "longDescription": "Togething is a community built to help people change their story through small steps and celebrated wins. Users create storylines, share steps, support each other, find accountability partners, and request coaching. Basic features are permanently free with no ads.",
+      "description": "Social React Native app for small wins, goal storylines, community support, and coaching — fully implemented with Cursor AI; architecture and descriptions by me.",
+      "longDescription": "Togething is a community built to help people change their story through small steps and celebrated wins. Users create storylines, share steps, support each other, find accountability partners, and request coaching. Basic features are permanently free with no ads. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.",
       "features": {
         "0": "Storylines, shared steps, and positive social reinforcement",
         "1": "Accountability partners, groups, and real-time chat",
@@ -64,8 +64,8 @@
     },
     "damdast": {
       "title": "Damdast | دم‌دست",
-      "description": "Offline-first everyday utility app for Android and iOS, built with React Native and TypeScript.",
-      "longDescription": "A multi-purpose daily utility app focused on UX, performance, and offline-first architecture. Published on Iranian app stores.",
+      "description": "Offline-first everyday utility app for Android and iOS — fully implemented with Cursor AI; architecture and descriptions by me.",
+      "longDescription": "A multi-purpose daily utility app focused on UX, performance, and offline-first architecture. Published on Iranian app stores. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.",
       "features": {
         "0": "Personalized home and daily utility tools",
         "1": "Scanner, installments, work hours, and timers",
@@ -92,8 +92,8 @@
     },
     "compressa": {
       "title": "Compressa | فشرده‌یار",
-      "description": "Kotlin Android app for compressing images, video, and PDF with Jetpack Compose and clean architecture.",
-      "longDescription": "Compressa (فشرده‌یار) is an Android media compression app built with Kotlin and Jetpack Compose. It supports image, video, and PDF compression, multi-select queues with a foreground service, before/after results, history, duplicate scanning, and large-file scanning — with Persian/English and RTL/LTR.",
+      "description": "Kotlin Android app for compressing images, video, and PDF — fully implemented with Cursor AI; architecture and descriptions by me.",
+      "longDescription": "Compressa (فشرده‌یار) is an Android media compression app built with Kotlin and Jetpack Compose. It supports image, video, and PDF compression, multi-select queues with a foreground service, before/after results, history, duplicate scanning, and large-file scanning — with Persian/English and RTL/LTR. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.",
       "features": {
         "0": "Image, video, and PDF compression engines",
         "1": "Compression queue with foreground service and progress",
@@ -104,8 +104,8 @@
     },
     "noteapp-aspnet": {
       "title": "NoteApp ASP.NET",
-      "description": "ASP.NET Core Web API for personal notes with JWT auth, EF Core, and SQL Server.",
-      "longDescription": "A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration.",
+      "description": "ASP.NET Core Web API for personal notes — fully implemented with Cursor AI; architecture and descriptions by me.",
+      "longDescription": "A note-taking backend built with ASP.NET Core. It exposes Auth and Notes controllers, uses Entity Framework Core with SQL Server, JWT Bearer authentication, DTOs, and Swagger for API exploration. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.",
       "features": {
         "0": "JWT authentication and authorization",
         "1": "Notes CRUD via REST controllers",
@@ -229,10 +229,10 @@
     },
     "portfolio-website": {
       "title": "Web Portfolio",
-      "description": "Personal resume and portfolio website with React, TypeScript, and Vite.",
-      "longDescription": "Professional site showcasing experience, skills, and projects with modern React tooling.",
+      "description": "Personal resume and portfolio website — fully implemented with Cursor AI; architecture and descriptions by me.",
+      "longDescription": "Professional site showcasing experience, skills, and projects with modern React tooling. The entire codebase was written with Cursor AI; I designed the architecture and authored the product and technical descriptions. Part of roughly one year of AI-assisted development.",
       "problem": "Need a maintainable portfolio that reflects senior mobile and frontend experience.",
-      "solution": "Feature-oriented React app with typed content models, i18n, and a shared design system.",
+      "solution": "Feature-oriented React app with typed content models, i18n, and a shared design system — implemented with Cursor AI under human-owned architecture.",
       "features": {
         "0": "Responsive layout and component-based UI",
         "1": "About, resume, skills, and projects pages",

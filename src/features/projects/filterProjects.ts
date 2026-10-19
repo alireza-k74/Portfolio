@@ -2,12 +2,12 @@ import type { Project } from '@/types/portfolio'
 
 export const PROJECT_FILTERS = [
   'all',
+  'ai',
   'web',
   'mobile',
   'react',
   'react-native',
   'aspnet',
-  'ai',
 ] as const
 
 export type ProjectFilter = (typeof PROJECT_FILTERS)[number]
@@ -39,9 +39,9 @@ export function matchesProjectFilter(
     case 'all':
       return true
     case 'web':
-      return project.category === 'web'
+      return project.category === 'web' || hasTag(project, 'Web')
     case 'mobile':
-      return project.category === 'mobile'
+      return project.category === 'mobile' || hasTag(project, 'Mobile')
     case 'react':
       return hasTechnology(project, 'React') || hasTag(project, 'React')
     case 'react-native':
@@ -60,6 +60,9 @@ export function matchesProjectFilter(
       return (
         project.category === 'ai' ||
         hasTag(project, 'AI') ||
+        hasTag(project, 'Cursor') ||
+        hasTag(project, 'AI-built') ||
+        hasTechnology(project, 'AI Coding Agents') ||
         hasTechnology(project, 'AI coding agents')
       )
     default:
