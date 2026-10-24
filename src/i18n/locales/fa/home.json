@@ -3,8 +3,8 @@
   "firstName": "علیرضا",
   "lastName": "کرمی",
   "name": "علیرضا کرمی",
-  "title": "مهندس ارشد موبایل و فرانت‌اند | React Native | React | TypeScript",
-  "intro": "بیش از ۷ سال در توسعه اپلیکیشن‌های موبایل و وب با React Native، React و TypeScript — از پروژه‌های بزرگ واقعی تا انتشار محصول در مارکت.",
+  "title": "مهندس موبایل و Frontend | React Native | React | TypeScript",
+  "intro": "مهندس ارشد موبایل و Frontend با بیش از ۷ سال تجربه در ساخت اپلیکیشن‌های Production برای iOS و Android با React Native، TypeScript و JavaScript — به‌همراه React Web و توسعه به کمک هوش مصنوعی.",
   "highlights": {
     "reactNative": "React Native",
     "react": "React",
@@ -20,7 +20,7 @@
   "about": {
     "title": "درباره",
     "description": "نگاهی کوتاه به تجربه و تمرکز فنی من.",
-    "summary": "مهندس نرم‌افزار با بیش از ۷ سال تجربه در React، React Native و TypeScript؛ با تمرکز بر معماری، عملکرد و محصولات واقعی.",
+    "summary": "مهندس ارشد موبایل و Frontend با بیش از ۷ سال تجربه در React Native، React و TypeScript؛ با تمرکز بر معماری، Performance و محصولات Production.",
     "cta": "بیشتر درباره من"
   },
   "featured": {
@@ -30,7 +30,7 @@
   },
   "experience": {
     "title": "سوابق",
-    "description": "TOGETHING، APSY و DIGITAL IMPROVER — توسعه React Native در تیم‌های Remote.",
+    "description": "TOGETHING، Apsy و Improver Digital — توسعه React Native در تیم‌های Remote.",
     "cta": "مشاهده سوابق",
     "present": "اکنون"
   },
@@ -41,7 +41,7 @@
   },
   "cta": {
     "title": "بیایید همکاری کنیم",
-    "description": "آماده نقش‌های Remote در توسعه موبایل و فرانت‌اند هستم.",
+    "description": "آماده نقش‌های Remote در توسعه موبایل و Frontend هستم.",
     "primary": "تماس با من",
     "secondary": "دانلود رزومه"
   }

@@ -10,9 +10,9 @@ import { skillCategories } from '@/data/skills'
 import { ROUTES } from '@/lib/constants'
 
 const PREVIEW_CATEGORY_IDS = [
-  'mobile-web',
-  'react-web',
-  'testing',
+  'mobile-development',
+  'frontend-development',
+  'realtime-integrations',
   'ai',
 ] as const
 

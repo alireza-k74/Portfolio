@@ -3,9 +3,9 @@ import type { Profile } from '@/types/portfolio'
 
 export const profile: Profile = {
   name: 'Alireza Karami',
-  title: 'Senior Mobile & Frontend Engineer | React Native | React | TypeScript',
+  title: 'Mobile & Frontend Engineer | React Native | React | TypeScript',
   summary:
-    'Software engineer with 7+ years of experience building mobile and web applications, focused on React, React Native, and TypeScript.',
+    'Senior Mobile & Frontend Engineer with 7+ years of experience building and maintaining production mobile applications for iOS and Android using React Native, TypeScript, and JavaScript.',
   location: 'Semnan, Iran',
   email: 'alirezakaram.k74@gmail.com',
   phone: '09120734656',

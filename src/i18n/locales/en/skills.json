@@ -7,31 +7,25 @@
     "skills": "Skills"
   },
   "categories": {
-    "mobile-web": "Mobile & web development",
-    "react-web": "React web",
-    "testing": "Testing & code quality",
-    "state": "State & project structure",
-    "api": "API & server communication",
-    "mobile-capabilities": "Mobile capabilities",
-    "performance": "Performance optimization",
-    "rn-architecture": "React Native architecture",
-    "ui-animation": "UI & animation",
-    "tools": "Tools",
-    "software-engineering": "Software engineering",
-    "ai": "AI-assisted development"
+    "mobile-development": "Mobile Development",
+    "frontend-development": "Frontend Development",
+    "state-data-fetching": "State Management & Data Fetching",
+    "backend-databases": "Backend & Databases",
+    "devops-tools": "DevOps & Development Tools",
+    "realtime-integrations": "Real-Time & Integrations",
+    "performance-architecture": "Performance & Architecture",
+    "ui-media": "UI & Media",
+    "ai": "AI-Assisted Development"
   },
   "categoryDescriptions": {
-    "mobile-web": "Core mobile and web stack.",
-    "react-web": "Common React web libraries and tooling.",
-    "testing": "Code quality, linting, and review.",
-    "state": "State patterns and project structure.",
-    "api": "REST, GraphQL, and API clients.",
-    "mobile-capabilities": "Native capabilities and mobile services.",
-    "performance": "Rendering, loading, and storage optimization.",
-    "rn-architecture": "New Architecture and native modules.",
-    "ui-animation": "Animation, gestures, and UI components.",
-    "tools": "Development and release tooling.",
-    "software-engineering": "Engineering principles and patterns.",
-    "ai": "Agents and AI-assisted workflows."
+    "mobile-development": "React Native, TypeScript, and native mobile integrations.",
+    "frontend-development": "React web stack and responsive UI tooling.",
+    "state-data-fetching": "Client state and data-fetching libraries.",
+    "backend-databases": "Backend services, APIs, and databases.",
+    "devops-tools": "Containers, version control, and mobile IDEs.",
+    "realtime-integrations": "Realtime, push, deep linking, and purchases.",
+    "performance-architecture": "Performance, caching, and engineering principles.",
+    "ui-media": "Animation, gestures, and media handling.",
+    "ai": "Cursor, agents, and AI-assisted workflows."
   }
 }

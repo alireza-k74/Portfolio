@@ -7,31 +7,25 @@
     "skills": "مهارت‌ها"
   },
   "categories": {
-    "mobile-web": "توسعه موبایل و وب",
-    "react-web": "React Web",
-    "testing": "تست و کیفیت کد",
-    "state": "مدیریت وضعیت و ساختار پروژه",
-    "api": "API و ارتباط با سرور",
-    "mobile-capabilities": "قابلیت‌های موبایل",
-    "performance": "بهینه‌سازی و Performance",
-    "rn-architecture": "React Native Architecture",
-    "ui-animation": "UI و Animation",
-    "tools": "ابزارها",
-    "software-engineering": "مهندسی نرم‌افزار",
+    "mobile-development": "توسعه موبایل",
+    "frontend-development": "توسعه Frontend",
+    "state-data-fetching": "مدیریت وضعیت و Data Fetching",
+    "backend-databases": "Backend و پایگاه داده",
+    "devops-tools": "DevOps و ابزارهای توسعه",
+    "realtime-integrations": "Real-Time و یکپارچه‌سازی‌ها",
+    "performance-architecture": "Performance و معماری",
+    "ui-media": "UI و Media",
     "ai": "توسعه با کمک هوش مصنوعی"
   },
   "categoryDescriptions": {
-    "mobile-web": "پشته اصلی توسعه موبایل و وب.",
-    "react-web": "کتابخانه‌ها و ابزارهای رایج React Web.",
-    "testing": "کیفیت کد، lint و بازبینی.",
-    "state": "الگوهای state و ساختار پروژه.",
-    "api": "REST، GraphQL و کلاینت‌های API.",
-    "mobile-capabilities": "قابلیت‌های بومی و سرویس‌های موبایل.",
-    "performance": "بهینه‌سازی رندر، بارگذاری و ذخیره‌سازی.",
-    "rn-architecture": "معماری جدید React Native و Native Modules.",
-    "ui-animation": "انیمیشن، ژست و کامپوننت‌های UI.",
-    "tools": "ابزارهای توسعه و انتشار.",
-    "software-engineering": "اصول و الگوهای مهندسی نرم‌افزار.",
-    "ai": "ایجنت‌ها و جریان‌های کاری AI-Assisted."
+    "mobile-development": "React Native، TypeScript و یکپارچه‌سازی‌های Native.",
+    "frontend-development": "پشته React Web و ابزارهای UI واکنش‌گرا.",
+    "state-data-fetching": "State سمت کلاینت و کتابخانه‌های Data Fetching.",
+    "backend-databases": "سرویس‌های Backend، API و پایگاه داده.",
+    "devops-tools": "کانتینر، کنترل نسخه و IDEهای موبایل.",
+    "realtime-integrations": "Realtime، Push، Deep Linking و خرید درون‌برنامه‌ای.",
+    "performance-architecture": "Performance، Caching و اصول مهندسی نرم‌افزار.",
+    "ui-media": "انیمیشن، ژست و پردازش رسانه.",
+    "ai": "Cursor، Agentها و جریان‌های AI-Assisted."
   }
 }

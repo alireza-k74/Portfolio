@@ -3,8 +3,8 @@
   "firstName": "Alireza",
   "lastName": "Karami",
   "name": "Alireza Karami",
-  "title": "Senior Mobile & Frontend Engineer | React Native | React | TypeScript",
-  "intro": "7+ years building mobile and web apps with React Native, React, and TypeScript — from large production products to published apps.",
+  "title": "Mobile & Frontend Engineer | React Native | React | TypeScript",
+  "intro": "Senior Mobile & Frontend Engineer with 7+ years building production iOS and Android apps with React Native, TypeScript, and JavaScript — plus React web and AI-assisted development.",
   "highlights": {
     "reactNative": "React Native",
     "react": "React",
@@ -20,7 +20,7 @@
   "about": {
     "title": "About",
     "description": "A concise look at my experience and technical focus.",
-    "summary": "Software engineer with 7+ years in React, React Native, and TypeScript — focused on architecture, performance, and real-world products.",
+    "summary": "Senior Mobile & Frontend Engineer with 7+ years in React Native, React, and TypeScript — focused on architecture, performance, and production products.",
     "cta": "More about me"
   },
   "featured": {
@@ -30,7 +30,7 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "TOGETHING, APSY, and DIGITAL IMPROVER — React Native development in remote teams.",
+    "description": "TOGETHING, Apsy, and Improver Digital — React Native development in remote teams.",
     "cta": "View experience",
     "present": "Present"
   },

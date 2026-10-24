@@ -51,17 +51,14 @@ export type ExperienceItem = {
 }
 
 export type SkillCategoryId =
-  | 'mobile-web'
-  | 'react-web'
-  | 'testing'
-  | 'state'
-  | 'api'
-  | 'mobile-capabilities'
-  | 'performance'
-  | 'rn-architecture'
-  | 'ui-animation'
-  | 'tools'
-  | 'software-engineering'
+  | 'mobile-development'
+  | 'frontend-development'
+  | 'state-data-fetching'
+  | 'backend-databases'
+  | 'devops-tools'
+  | 'realtime-integrations'
+  | 'performance-architecture'
+  | 'ui-media'
   | 'ai'
 
 export type SkillCategory = {

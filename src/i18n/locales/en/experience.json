@@ -19,50 +19,51 @@
   "items": {
     "togething": {
       "company": "TOGETHING – Netherlands",
-      "role": "React Native Developer",
-      "description": "Social platform focused on positive habits, goal setting, and user engagement.",
+      "role": "Senior React Native Developer",
+      "description": "Developed and maintained a social platform focused on goal setting, positive habits, and user engagement.",
       "responsibilities": {
-        "0": "Develop and improve app features with React Native",
-        "1": "Design and improve state management with Redux and Zustand",
-        "2": "Implement real-time communication and sync with SignalR",
-        "3": "Build and maintain in-app subscription and purchase flows for Android and iOS",
-        "4": "Improve screen load speed and reduce loading time by ~35%",
-        "5": "Optimize heavy sections and media file processing",
-        "6": "Collaborate with Backend and Product teams on new features",
-        "7": "Use AI coding agents for development, debugging, refactoring, testing, and documentation"
+        "0": "Developed and enhanced mobile features using React Native and TypeScript.",
+        "1": "Worked with GraphQL, React Query, and state management solutions including Redux Toolkit, Zustand, and Valtio.",
+        "2": "Implemented real-time communication and data synchronization using SignalR.",
+        "3": "Maintained in-app purchases and subscription flows for Android and iOS.",
+        "4": "Improved media loading, image caching, and recovery of expired media URLs.",
+        "5": "Investigated production crashes, application startup issues, and performance bottlenecks.",
+        "6": "Collaborated with backend and product teams to deliver new features.",
+        "7": "Used AI coding agents to support implementation, debugging, refactoring, testing, and documentation."
       },
-      "projectNote": "Project: Togething – social platform for goals, positive habits, and user engagement. Available on the App Store and Google Play."
+      "projectNote": "Project: Togething – social & habit-building platform. Available on the App Store and Google Play."
     },
     "apsy": {
-      "company": "APSY – California, USA",
+      "company": "Apsy – California, USA",
       "role": "React Native Developer",
-      "description": "Worked on multiple large apps in education, communications, and interactive experiences.",
+      "description": "Worked on multiple mobile applications across education, communication, social interaction, and interactive user experiences.",
       "responsibilities": {
-        "0": "Develop and maintain large React Native applications",
-        "1": "Optimize performance for heavy screens and lists",
-        "2": "Use lazy loading and techniques to reduce resource usage",
-        "3": "Implement JavaScript–Native bridges in React Native",
-        "4": "Integrate REST and GraphQL services",
-        "5": "Improve app startup time and reduce unnecessary re-renders",
-        "6": "Collaborate with Backend, design, and product teams",
-        "7": "Participate in code review and technical architecture decisions",
-        "8": "Mentor junior developers",
-        "9": "Use AI tools for feature development, code review, debugging, testing, and documentation"
+        "0": "Developed and maintained large-scale React Native applications for iOS and Android.",
+        "1": "Refactored existing codebases to improve stability, maintainability, and application performance.",
+        "2": "Built reusable UI components based on custom design specifications.",
+        "3": "Integrated REST and GraphQL APIs and implemented client-side data management.",
+        "4": "Worked with JavaScript-to-native communication and native mobile integrations.",
+        "5": "Optimized rendering, application startup, and resource consumption.",
+        "6": "Contributed to technical reviews, architecture decisions, and debugging.",
+        "7": "Supported junior developers and collaborated with backend, design, and product teams.",
+        "8": "Used AI-assisted development tools for implementation, code analysis, debugging, and documentation."
       },
-      "projectNote": "Projects: HUDU, COMMON-TIME, MVP, Bitcoin-Bachelors, SocialOrder, Salam maman. HUDU is listed on Google Play."
+      "projectNote": "Projects include Common Time, MVP, Alba Education, BitcoinBachelors, Drive & Detours, and related mobile products."
     },
     "digital-improver": {
-      "company": "DIGITAL IMPROVER – Istanbul, Turkey",
+      "company": "Improver Digital – Istanbul, Turkey",
       "role": "React Native Developer",
-      "description": "Project: Education Alba – online education platform for direct teacher–student communication.",
+      "description": "Developed cross-platform mobile applications using React Native, JavaScript, and TypeScript.",
       "responsibilities": {
-        "0": "Develop and maintain Android and iOS apps with React Native",
-        "1": "Design interactive UIs and animations",
-        "2": "Use Reanimated and Lottie for better UX",
-        "3": "Implement chat, notifications, and real-time features",
-        "4": "Work with Socket.io, WebRTC, and Firebase",
-        "5": "Collaborate with the team to improve app capabilities"
-      }
+        "0": "Developed cross-platform mobile applications using React Native, JavaScript, and TypeScript.",
+        "1": "Built reusable frontend components and integrated REST APIs.",
+        "2": "Implemented state management with Redux and Redux-Saga.",
+        "3": "Developed video calling functionality for dating applications using WebRTC.",
+        "4": "Implemented screen-recording protection for supported application flows.",
+        "5": "Worked with Firebase, Socket.IO, and real-time communication features.",
+        "6": "Built interactive user interfaces and animations using mobile UI libraries."
+      },
+      "projectNote": "Projects include Wingle, Volex, and related dating and digital currency applications."
     }
   }
 }
