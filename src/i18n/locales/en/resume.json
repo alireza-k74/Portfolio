@@ -16,11 +16,9 @@
     "languages": "Languages",
     "contact": "Contact"
   },
-  "locationValue": "Semnan, Iran",
   "contact": {
     "email": "Email",
     "phone": "Phone",
-    "location": "Location",
     "github": "GitHub",
     "linkedin": "LinkedIn"
   },

@@ -164,12 +164,6 @@ export function ResumePage() {
             ) : null}
             <li>
               <span className="font-medium text-foreground print:text-black">
-                {t('resume:contact.location')}:
-              </span>{' '}
-              {t('resume:locationValue', { defaultValue: profile.location })}
-            </li>
-            <li>
-              <span className="font-medium text-foreground print:text-black">
                 {t('resume:contact.github')}:
               </span>{' '}
               <a
@@ -414,10 +408,6 @@ export function ResumePage() {
                   {t('resume:contact.phone')}: {profile.phone}
                 </li>
               ) : null}
-              <li>
-                {t('resume:contact.location')}:{' '}
-                {t('resume:locationValue', { defaultValue: profile.location })}
-              </li>
               <li>
                 {t('resume:contact.github')}: {profile.github}
               </li>

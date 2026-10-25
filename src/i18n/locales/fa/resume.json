@@ -16,11 +16,9 @@
     "languages": "زبان‌ها",
     "contact": "تماس"
   },
-  "locationValue": "سمنان، ایران",
   "contact": {
     "email": "ایمیل",
     "phone": "تلفن",
-    "location": "موقعیت",
     "github": "گیت‌هاب",
     "linkedin": "لینکدین"
   },

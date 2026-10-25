@@ -16,7 +16,6 @@ export type Profile = {
   name: string
   title: string
   summary: string
-  location: string
   email: string
   phone?: string
   github: string

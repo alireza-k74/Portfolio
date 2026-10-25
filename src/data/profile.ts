@@ -6,7 +6,6 @@ export const profile: Profile = {
   title: 'Mobile & Frontend Engineer | React Native | React | TypeScript',
   summary:
     'Senior Mobile & Frontend Engineer with 7+ years of experience building and maintaining production mobile applications for iOS and Android using React Native, TypeScript, and JavaScript.',
-  location: 'Semnan, Iran',
   email: 'alirezakaram.k74@gmail.com',
   phone: '09120734656',
   github: 'https://github.com/alireza-k74',
