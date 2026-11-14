@@ -92,15 +92,19 @@
     },
     "compressa": {
       "title": "Compressa | فشرده‌یار",
-      "description": "Native Android media compression app focused on image and video compression.",
-      "longDescription": "A native Android application focused on image and video compression. Built the user interface with Jetpack Compose, worked with Android media APIs and MediaCodec for media processing, implemented background processing with foreground services, and focused on compression quality, processing reliability, and user experience.",
+      "description": "Offline-first Android app for compressing photos, videos, and PDFs privately on-device — no internet, uploads, or account required.",
+      "longDescription": "Compressa (فشرده‌یار) is a native Android utility for reducing photo, video, and PDF size with all processing done on-device. Built with Jetpack Compose and Android media APIs including MediaCodec, it supports quality and dimension controls, target-size estimates, H.264/H.265 video codecs, PDF image compression while preserving text and vectors, a multi-file queue with foreground services, duplicate and large-file scanners, and Persian/English localization with light/dark themes. Privacy-first: no network permission, no uploads, and no signup.",
       "features": {
-        "0": "Image and video compression with MediaCodec",
-        "1": "Jetpack Compose user interface",
-        "2": "Background processing with foreground services",
-        "3": "Focus on compression quality and processing reliability"
+        "0": "Photo compression for JPG, PNG, and WebP with quality, size, and crop/rotate",
+        "1": "Video compression with H.264/H.265 and selectable output quality",
+        "2": "PDF compression that shrinks embedded images while keeping text and vectors",
+        "3": "Multi-file queue, presets, before/after sizes, and storage scanners",
+        "4": "Offline-only privacy with Persian/English UI and light/dark themes"
       },
-      "architecture": "Kotlin Android app with Jetpack Compose UI and MediaCodec-based media processing."
+      "architecture": "Clean feature modules with Compose UI, use cases, media engines, DataStore preferences, and SQLite history.",
+      "results": {
+        "0": "Published on Cafe Bazaar"
+      }
     },
     "noteapp-aspnet": {
       "title": "NoteApp",
