@@ -10,6 +10,7 @@ export const profile: Profile = {
   phone: '09120734656',
   github: 'https://github.com/alireza-k74',
   linkedin: 'https://www.linkedin.com/in/alirezak74/',
+  telegram: 'https://t.me/alirezak74',
   image: personalImage,
   resumeUrls: {
     en: '/resume-en.pdf',
@@ -25,6 +26,11 @@ export const profile: Profile = {
       platform: 'linkedin',
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/alirezak74/',
+    },
+    {
+      platform: 'telegram',
+      label: 'Telegram',
+      url: 'https://t.me/alirezak74',
     },
     {
       platform: 'email',

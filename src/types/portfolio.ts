@@ -1,5 +1,5 @@
 export type SocialPlatform =
-  'github' | 'linkedin' | 'email' | 'twitter' | 'website'
+  'github' | 'linkedin' | 'email' | 'twitter' | 'website' | 'telegram'
 
 export type SocialLink = {
   platform: SocialPlatform
@@ -20,6 +20,7 @@ export type Profile = {
   phone?: string
   github: string
   linkedin: string
+  telegram: string
   image: string
   resumeUrls: {
     en: string
