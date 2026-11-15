@@ -149,19 +149,20 @@ export function ResumePage() {
                 {profile.email}
               </a>
             </li>
-            {profile.phone ? (
-              <li>
+            {profile.phones?.map((phone) => (
+              <li key={phone}>
                 <span className="font-medium text-foreground print:text-black">
                   {t('resume:contact.phone')}:
                 </span>{' '}
                 <a
-                  href={`tel:${profile.phone}`}
+                  href={`tel:${phone}`}
                   className="underline-offset-2 hover:underline print:text-black print:no-underline"
+                  dir="ltr"
                 >
-                  {profile.phone}
+                  {phone}
                 </a>
               </li>
-            ) : null}
+            ))}
             <li>
               <span className="font-medium text-foreground print:text-black">
                 {t('resume:contact.github')}:
@@ -403,11 +404,11 @@ export function ResumePage() {
               <li>
                 {t('resume:contact.email')}: {profile.email}
               </li>
-              {profile.phone ? (
-                <li>
-                  {t('resume:contact.phone')}: {profile.phone}
+              {profile.phones?.map((phone) => (
+                <li key={phone}>
+                  {t('resume:contact.phone')}: {phone}
                 </li>
-              ) : null}
+              ))}
               <li>
                 {t('resume:contact.github')}: {profile.github}
               </li>

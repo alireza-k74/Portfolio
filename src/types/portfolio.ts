@@ -17,7 +17,7 @@ export type Profile = {
   title: string
   summary: string
   email: string
-  phone?: string
+  phones?: string[]
   github: string
   linkedin: string
   telegram: string

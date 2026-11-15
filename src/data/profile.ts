@@ -7,7 +7,7 @@ export const profile: Profile = {
   summary:
     'Senior Mobile & Frontend Engineer with 7+ years of experience building and maintaining production mobile applications for iOS and Android using React Native, TypeScript, and JavaScript.',
   email: 'alirezakaram.k74@gmail.com',
-  phone: '09120734656',
+  phones: ['09120734656', '09056494656'],
   github: 'https://github.com/alireza-k74',
   linkedin: 'https://www.linkedin.com/in/alirezak74/',
   telegram: 'https://t.me/alirezak74',

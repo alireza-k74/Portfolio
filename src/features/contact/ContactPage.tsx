@@ -6,8 +6,14 @@ import { Page, PageHeader } from '@/components/common/Page'
 import { Button } from '@/components/ui/button'
 import { profile } from '@/data/profile'
 
-const PHONE_TEL = '+989120734656'
 const TELEGRAM_HANDLE = '@alirezak74'
+
+function toTelHref(phone: string) {
+  const digits = phone.replace(/\D/g, '')
+  if (digits.startsWith('0')) return `+98${digits.slice(1)}`
+  if (digits.startsWith('98')) return `+${digits}`
+  return `+${digits}`
+}
 
 function LinkedInIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -19,6 +25,7 @@ function LinkedInIcon(props: SVGProps<SVGSVGElement>) {
 
 export function ContactPage() {
   const { t } = useTranslation(['contact', 'common'])
+  const phones = profile.phones ?? []
 
   return (
     <Page containerSize="narrow">
@@ -38,19 +45,20 @@ export function ContactPage() {
             </a>
           </Button>
 
-          {profile.phone ? (
+          {phones.map((phone) => (
             <Button
+              key={phone}
               asChild
               size="lg"
               variant="outline"
               className="w-full min-[420px]:w-auto"
             >
-              <a href={`tel:${PHONE_TEL}`}>
+              <a href={`tel:${toTelHref(phone)}`}>
                 <Phone data-icon="inline-start" />
-                {profile.phone}
+                {phone}
               </a>
             </Button>
-          ) : null}
+          ))}
 
           <Button
             asChild
@@ -97,19 +105,22 @@ export function ContactPage() {
               </a>
             </dd>
           </div>
-          {profile.phone ? (
+          {phones.length > 0 ? (
             <div className="flex flex-col gap-1 sm:flex-row sm:gap-3">
               <dt className="font-medium text-foreground">
                 {t('common:phone')}
               </dt>
-              <dd>
-                <a
-                  className="underline-offset-4 hover:underline"
-                  href={`tel:${PHONE_TEL}`}
-                  dir="ltr"
-                >
-                  {profile.phone}
-                </a>
+              <dd className="flex flex-col gap-1">
+                {phones.map((phone) => (
+                  <a
+                    key={phone}
+                    className="underline-offset-4 hover:underline"
+                    href={`tel:${toTelHref(phone)}`}
+                    dir="ltr"
+                  >
+                    {phone}
+                  </a>
+                ))}
               </dd>
             </div>
           ) : null}
