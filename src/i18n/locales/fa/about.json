@@ -38,7 +38,7 @@
   },
   "ai": {
     "title": "توسعه با کمک هوش مصنوعی",
-    "body": "تجربه در توسعه نرم‌افزار به کمک هوش مصنوعی؛ استفاده از Coding Agentها برای پیاده‌سازی، Refactoring، Debugging، تست، Code Review و مستندسازی، با تمرکز بر معماری قابل نگهداری و کیفیت کد. پروژه‌هایی مثل Togething، Damdast، Compressa، NoteApp، ShopSphere و همین Portfolio با Cursor و تحت معماری تحت مالکیت انسانی ساخته شده‌اند.",
+    "body": "تجربه در توسعه نرم‌افزار به کمک هوش مصنوعی؛ استفاده از Coding Agentها برای پیاده‌سازی، Refactoring، Debugging، تست، Code Review و مستندسازی، با تمرکز بر معماری قابل نگهداری و کیفیت کد. پروژه‌هایی مثل Togething، Damdast، Compressa، Carivo، NoteApp، ShopSphere و همین Portfolio با Cursor و تحت معماری تحت مالکیت انسانی ساخته شده‌اند.",
     "points": {
       "0": "پیاده‌سازی، Refactoring و Debugging با AI Coding Agentها",
       "1": "تولید تست، Code Review و پشتیبانی مستندسازی",

@@ -106,6 +106,22 @@
         "0": "Published on Cafe Bazaar"
       }
     },
+    "carivo": {
+      "title": "Carivo | خودرویار",
+      "description": "Offline-first Android app for car maintenance, service reminders, fuel and expense tracking, parts, documents, and PDF reports — no internet or account required.",
+      "longDescription": "Carivo (خودرویار) is a native Android car maintenance companion that keeps service schedules, odometer history, expenses, fuel logs, parts lifespan, insurance and inspection documents, and vehicle timelines organized entirely on-device. Built with Jetpack Compose, Room, and DataStore. Persian and English UI with Jalali calendar in Persian mode. Privacy-first: no network permission, no uploads, and no signup. Published on Cafe Bazaar.",
+      "features": {
+        "0": "Service schedules by date, mileage, or whichever comes first",
+        "1": "Expense and fuel tracking with monthly and yearly summaries",
+        "2": "Parts, insurance, and inspection document reminders",
+        "3": "PDF reports, JSON backup/restore, checklists, and status widget",
+        "4": "Offline-only privacy with Persian/English UI and Jalali calendar"
+      },
+      "architecture": "Compose UI with Room local persistence, DataStore preferences, and offline-first feature modules.",
+      "results": {
+        "0": "Published on Cafe Bazaar"
+      }
+    },
     "noteapp-aspnet": {
       "title": "NoteApp",
       "description": "Full-stack note management web app with ASP.NET Core backend and React frontend.",

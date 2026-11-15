@@ -63,6 +63,8 @@ export type SkillCategoryId =
 
 export type SkillCategory = {
   id: SkillCategoryId
+  /** Mastery level from 0 to 100 */
+  proficiency: number
   skills: string[]
 }
 

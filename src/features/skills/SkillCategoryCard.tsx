@@ -24,9 +24,14 @@ export function SkillCategoryCard({ category }: SkillCategoryCardProps) {
           >
             {t(`categories.${category.id}`)}
           </h2>
-          <span className="rounded-md bg-muted px-2 py-0.5 text-xs text-muted-foreground">
-            {category.skills.length}
-          </span>
+          <div className="flex shrink-0 items-center gap-2">
+            <span className="rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium tabular-nums text-primary">
+              {category.proficiency}%
+            </span>
+            <span className="rounded-md bg-muted px-2 py-0.5 text-xs text-muted-foreground">
+              {category.skills.length}
+            </span>
+          </div>
         </div>
         <p className="text-sm leading-relaxed text-muted-foreground">
           {t(`categoryDescriptions.${category.id}`)}

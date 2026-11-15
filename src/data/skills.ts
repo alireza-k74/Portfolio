@@ -3,6 +3,7 @@ import type { SkillCategory } from '@/types/portfolio'
 export const skillCategories: SkillCategory[] = [
   {
     id: 'mobile-development',
+    proficiency: 100,
     skills: [
       'React Native',
       'TypeScript',
@@ -17,6 +18,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'frontend-development',
+    proficiency: 80,
     skills: [
       'React',
       'Vite',
@@ -30,6 +32,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'state-data-fetching',
+    proficiency: 100,
     skills: [
       'Redux Toolkit',
       'Redux-Saga',
@@ -41,6 +44,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'backend-databases',
+    proficiency: 30,
     skills: [
       'C#',
       'ASP.NET Core',
@@ -52,6 +56,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'devops-tools',
+    proficiency: 25,
     skills: [
       'Docker',
       'Docker Compose',
@@ -63,6 +68,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'realtime-integrations',
+    proficiency: 80,
     skills: [
       'SignalR',
       'Socket.IO',
@@ -76,6 +82,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'performance-architecture',
+    proficiency: 90,
     skills: [
       'Performance Optimization',
       'Rendering Optimization',
@@ -92,6 +99,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'ui-media',
+    proficiency: 80,
     skills: [
       'React Native Reanimated',
       'Lottie',
@@ -103,6 +111,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'ai',
+    proficiency: 90,
     skills: [
       'Cursor',
       'AI Coding Agents',

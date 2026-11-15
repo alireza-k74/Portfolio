@@ -38,7 +38,7 @@
   },
   "ai": {
     "title": "AI-assisted development",
-    "body": "Experienced in AI-assisted software development, using coding agents for implementation, refactoring, debugging, testing, code review, and documentation, with a focus on maintainable architecture and code quality. Projects such as Togething, Damdast, Compressa, NoteApp, ShopSphere, and this portfolio were built with Cursor under human-owned architecture.",
+    "body": "Experienced in AI-assisted software development, using coding agents for implementation, refactoring, debugging, testing, code review, and documentation, with a focus on maintainable architecture and code quality. Projects such as Togething, Damdast, Compressa, Carivo, NoteApp, ShopSphere, and this portfolio were built with Cursor under human-owned architecture.",
     "points": {
       "0": "Implementation, refactoring, and debugging with AI coding agents",
       "1": "Test generation, code review, and documentation support",

@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 
 import { Page, PageHeader } from '@/components/common/Page'
 import { SkillCategoryCard } from '@/features/skills/SkillCategoryCard'
+import { SkillsProficiencyChart } from '@/features/skills/SkillsProficiencyChart'
 import { skillCategories } from '@/data/skills'
 import { cn } from '@/lib/utils'
 
@@ -39,6 +40,8 @@ export function SkillsPage() {
           </div>
         </dl>
       </section>
+
+      <SkillsProficiencyChart />
 
       <nav
         aria-label={t('overview.categories')}

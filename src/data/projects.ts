@@ -165,6 +165,41 @@ export const projects: Project[] = [
     results: ['Published on Cafe Bazaar'],
   },
   {
+    id: 'carivo',
+    title: 'Carivo | خودرویار',
+    description:
+      'Offline-first Android app for car maintenance, service reminders, fuel and expense tracking, parts, documents, and PDF reports — no internet or account required.',
+    longDescription:
+      'Carivo (خودرویار) is a native Android car maintenance companion that keeps service schedules, odometer history, expenses, fuel logs, parts lifespan, insurance and inspection documents, and vehicle timelines organized entirely on-device. Built with Jetpack Compose, Room, and DataStore, it supports date- or mileage-based reminders, customizable PDF reports, JSON backup/restore, travel and used-car inspection checklists, an offline knowledge base, emergency vehicle cards, drivers and garage inventory, and a free status widget. Persian and English UI with Jalali calendar in Persian mode. Privacy-first: no network permission, no uploads, and no signup. Published on Cafe Bazaar.',
+    category: 'ai',
+    technologies: ['Kotlin', 'Jetpack Compose', 'Room', 'DataStore'],
+    featured: true,
+    status: 'completed',
+    liveUrl: 'https://cafebazaar.ir/app/ir.carivo.app',
+    tags: ['Kotlin', 'Android', 'Mobile', 'AI-built', 'Cursor', 'Published'],
+    image: '/projects/mobile.svg',
+    links: [
+      {
+        label: 'Cafe Bazaar',
+        url: 'https://cafebazaar.ir/app/ir.carivo.app',
+      },
+    ],
+    features: [
+      'Service schedules by date, mileage, or whichever comes first',
+      'Expense and fuel tracking with monthly and yearly summaries',
+      'Parts lifespan, insurance, and inspection document reminders',
+      'Vehicle timeline with invoice photos, notes, and voice notes',
+      'Customizable PDF reports and JSON backup/restore',
+      'Travel checklist, 23-point used-car inspection, and offline knowledge base',
+      'Emergency card, drivers, garage inventory, and free status widget',
+      'Offline-only privacy: no internet permission, uploads, or account',
+      'Persian and English UI with Jalali calendar in Persian mode',
+    ],
+    architecture:
+      'Compose UI with Room local persistence, DataStore preferences, and offline-first feature modules.',
+    results: ['Published on Cafe Bazaar'],
+  },
+  {
     id: 'noteapp-aspnet',
     title: 'NoteApp',
     description:

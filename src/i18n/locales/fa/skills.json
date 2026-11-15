@@ -6,6 +6,11 @@
     "categories": "دسته‌ها",
     "skills": "مهارت‌ها"
   },
+  "proficiency": {
+    "title": "سطح تسلط",
+    "description": "درصد تسلط در هر حوزه تخصصی — بر اساس تجربه عملی و پروژه‌ها.",
+    "meterLabel": "{{category}}: {{value}} درصد"
+  },
   "categories": {
     "mobile-development": "توسعه موبایل",
     "frontend-development": "توسعه Frontend",

@@ -6,6 +6,11 @@
     "categories": "Categories",
     "skills": "Skills"
   },
+  "proficiency": {
+    "title": "Proficiency",
+    "description": "Mastery level per focus area — based on hands-on work and projects.",
+    "meterLabel": "{{category}}: {{value}} percent"
+  },
   "categories": {
     "mobile-development": "Mobile Development",
     "frontend-development": "Frontend Development",
